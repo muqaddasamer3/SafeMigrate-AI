@@ -1,0 +1,48 @@
+{
+  "payment_pressure": {
+    "weight": 30,
+    "keywords": [
+      "upfront fee", "advance fee", "advance payment", "processing fee",
+      "registration fee", "visa fee pehle", "pehle payment", "security deposit",
+      "send money", "western union", "easypaisa bhejo", "jazzcash bhejo",
+      "bank transfer karo", "fee jama karwao", "token money"
+    ]
+  },
+  "urgency_pressure": {
+    "weight": 20,
+    "keywords": [
+      "urgent", "act now", "limited seats", "aaj hi decide", "jaldi karo",
+      "offer expires", "only today", "last chance", "abhi confirm karo",
+      "seat khatam hone wali hai"
+    ]
+  },
+  "unrealistic_offer": {
+    "weight": 25,
+    "keywords": [
+      "guaranteed visa", "100% guaranteed job", "no interview required",
+      "no experience needed high salary", "free visa free ticket",
+      "guaranteed selection", "bina interview job"
+    ]
+  },
+  "document_risk": {
+    "weight": 25,
+    "keywords": [
+      "send your passport", "passport copy bhejo", "original documents bhejo",
+      "cnic copy send karo", "send bank details", "otp bhejo", "share your otp"
+    ]
+  },
+  "suspicious_contact": {
+    "weight": 15,
+    "keywords": [
+      "whatsapp only", "contact only on whatsapp", "no office address",
+      "personal number only", "no company email"
+    ]
+  },
+  "unrealistic_salary": {
+    "weight": 20,
+    "keywords": [
+      "salary 500000", "salary 5 lac", "double your salary", "unbelievable salary",
+      "tax free huge salary"
+    ]
+  }
+}
