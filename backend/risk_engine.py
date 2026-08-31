@@ -58,7 +58,7 @@ def detect_red_flags(text):
                 "risk_weight": pattern["risk_weight"],
             })
 
-    salary_match = re.search(r"(\$|usd|dollars?)\s?([\d,]{4,})", cleaned)
+    salary_match = re.search(r"(\$|usd|dollars?|gbp|pkr|aed|rs\.?|\u00a3)\s?([\doO]{4,})", cleaned)
     if salary_match:
         matches.append({
             "phrase": salary_match.group(0),

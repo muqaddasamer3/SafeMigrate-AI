@@ -29,3 +29,10 @@ P027,seat mehfooz karne ke liye,upfront_fee,0.7
 P028,bank account number bhejain,suspicious_channel,0.75
 P029,cash on delivery visa,unrealistic_claim,0.65
 P030,no experience required high salary,unrealistic_claim,0.7
+P031,own time own target,unrealistic_claim,0.6
+P032,non-technical,suspicious_channel,0.3
+P033,commission system,unrealistic_claim,0.5
+P034,data entry,suspicious_channel,0.3
+P035,part time full time,unrealistic_claim,0.4
+P036,age requirement,suspicious_channel,0.3
+P037,optimize data,unrealistic_claim,0.4
