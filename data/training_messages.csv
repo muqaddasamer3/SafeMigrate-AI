@@ -9,6 +9,16 @@ text,label
 "Congratulations, you have won a guaranteed job offer in Qatar, act now and pay the advance payment to secure it.",scam
 "This is a limited time offer, send money now to our agent, whatsapp only, guaranteed visa approval.",scam
 "Dear applicant, please transfer the visa fee pehle through western union, your job is guaranteed once payment is received.",scam
+"Mubarak ho aap select ho gaye hain, seat mehfooz karne ke liye advance raqam abhi bhejain.",scam
+"Bina interview ke guaranteed visa milega, sirf whatsapp per contact karain aur fees pehle jama karain.",scam
+"Jaldi karain, offer cancel ho jayega, paisay bhejain aur apna bank account number bhejain confirmation ke liye.",scam
+"Aap jeetne walon mein shamil hain, cash on delivery visa, jazba mat gawayen abhi payment karain.",scam
+"No experience required high salary guaranteed, just send your CNIC copy and processing fee via easypaisa.",scam
+"Free visa sponsorship guaranteed, no interview, send your bank details and a small processing fee to start.",scam
+"Selected candidates must deposit advance payment within 24 hours or the offer will be cancelled.",scam
+"Amazing opportunity, guaranteed job abroad, whatsapp only, act now before seats are full, send fee today.",scam
+"Aapki job confirm ho gayi hai, sirf ek chhoti si advance fees dein aur visa turant mil jayega.",scam
+"Limited seats available, guaranteed placement, no interview required, transfer the registration fee now.",scam
 "We would like to invite you for an interview for the position of Civil Engineer at our Lahore office next Monday at 10am.",genuine
 "Thank you for applying. Please find attached the job description and required documents for the Electrical Technician role in Riyadh.",genuine
 "Your application has been shortlisted. Kindly visit our office in Karachi for a formal interview and document verification.",genuine
@@ -24,3 +34,8 @@ text,label
 "Our recruitment process includes a written test followed by a panel interview at our registered office.",genuine
 "As part of standard hiring process, please provide references from your previous employer for verification.",genuine
 "The job offer includes accommodation, and salary will be transferred to your bank account monthly as per contract.",genuine
+"Aapka interview 3 September ko humare Lahore office mein subah 10 baje rakha gaya hai, apni original documents saath layen.",genuine
+"Hamari agency Bureau of Emigration se registered hai, aap license number verify kar sakte hain.",genuine
+"Kisi bhi qisam ki advance fees ki zaroorat nahi hai, visa process mukammal hone ke baad hi payment hoti hai.",genuine
+"Aapki application review ho rahi hai, HR team 5 working days mein contact karegi interview schedule ke liye.",genuine
+"Interview ke baad agar aap select hote hain to visa processing sarkari channel se hi hogi.",genuine

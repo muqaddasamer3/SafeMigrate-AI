@@ -14,3 +14,18 @@ P012,western union,suspicious_channel,0.85
 P013,easypaisa transfer,suspicious_channel,0.7
 P014,dear applicant,generic_greeting,0.3
 P015,congratulations you are selected,unrealistic_claim,0.6
+P016,paisay bhejain,upfront_fee,0.85
+P017,fees pehle jama karain,upfront_fee,0.85
+P018,jaldi karain,pressure_tactic,0.7
+P019,offer cancel ho jayega,pressure_tactic,0.85
+P020,guaranteed visa,unrealistic_claim,0.75
+P021,bina interview ke,unrealistic_claim,0.7
+P022,sirf whatsapp per,suspicious_channel,0.5
+P023,jeetne walon mein shamil,unrealistic_claim,0.6
+P024,advance raqam,upfront_fee,0.8
+P025,mubarak ho aap select ho gaye,unrealistic_claim,0.6
+P026,jazba mat gawayen,pressure_tactic,0.55
+P027,seat mehfooz karne ke liye,upfront_fee,0.7
+P028,bank account number bhejain,suspicious_channel,0.75
+P029,cash on delivery visa,unrealistic_claim,0.65
+P030,no experience required high salary,unrealistic_claim,0.7
