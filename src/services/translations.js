@@ -129,7 +129,7 @@ export const translations = {
   ur: {
     // App
     appName: "سیف مائیگریٹ اے آئی",
-    tagline: "جانے سے پہلے چیک کریں",
+    tagline: "باہر جانے سے پہلے، اسکیم سے بچیں",
     
     // Navigation
     home: "ہوم",

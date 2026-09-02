@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { FiArrowLeft, FiCheckCircle, FiAlertTriangle, FiXCircle, FiInfo } from 'react-icons/fi';
 import { useLanguage } from '../../contexts/LanguageContext';
@@ -68,7 +68,30 @@ const Result = () => {
   };
 
   const RiskIcon = getRiskIcon(mockResult.risk);
-  const riskColor = getRiskColor(mockResult.risk);
+
+  // Save to history when result loads
+  useEffect(() => {
+    const saveToHistory = () => {
+      const historyEntry = {
+        type: location.state?.text ? 'offer' : 'image',
+        risk: mockResult.risk,
+        text: location.state?.text || 'Screenshot analysis',
+        agencyName: location.state?.agencyName || null,
+        date: new Date().toISOString()
+      };
+
+      const savedHistory = localStorage.getItem('safeMigrateHistory');
+      let history = savedHistory ? JSON.parse(savedHistory) : [];
+      history.unshift(historyEntry);
+      // Keep only last 50 entries
+      if (history.length > 50) {
+        history = history.slice(0, 50);
+      }
+      localStorage.setItem('safeMigrateHistory', JSON.stringify(history));
+    };
+
+    saveToHistory();
+  }, []);
 
   return (
     <div className="min-h-screen bg-gray-50">

@@ -14,6 +14,7 @@ import AgencySearch from './components/Screens/AgencySearch';
 import AgencyResult from './components/Screens/AgencyResult';
 import ReportScam from './components/Screens/ReportScam';
 import About from './components/Screens/About';
+import History from './components/Screens/History';  // ← ADD THIS
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route path="/agency-result" element={<AgencyResult />} />
             <Route path="/report-scam" element={<ReportScam />} />
             <Route path="/about" element={<About />} />
+            <Route path="/history" element={<History />} />  {/* ← ADD THIS */}
           </Routes>
         </Layout>
       </BrowserRouter>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { FiArrowLeft, FiCheckCircle, FiXCircle, FiInfo, FiMapPin, FiPhone, FiFileText } from 'react-icons/fi';
 import { useLanguage } from '../../contexts/LanguageContext';
@@ -23,6 +23,30 @@ const AgencyResult = () => {
   };
 
   const isVerified = mockAgency.verified;
+
+  // Save to history when result loads
+  useEffect(() => {
+    const saveToHistory = () => {
+      const historyEntry = {
+        type: 'agency',
+        risk: isVerified ? 'Low' : 'High',
+        text: null,
+        agencyName: agencyName,
+        date: new Date().toISOString()
+      };
+
+      const savedHistory = localStorage.getItem('safeMigrateHistory');
+      let history = savedHistory ? JSON.parse(savedHistory) : [];
+      history.unshift(historyEntry);
+      // Keep only last 50 entries
+      if (history.length > 50) {
+        history = history.slice(0, 50);
+      }
+      localStorage.setItem('safeMigrateHistory', JSON.stringify(history));
+    };
+
+    saveToHistory();
+  }, [agencyName, isVerified]);
 
   return (
     <div className="min-h-screen bg-gray-50">
