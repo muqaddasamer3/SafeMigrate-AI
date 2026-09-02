@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { FiArrowLeft, FiCheckCircle, FiAlertTriangle, FiXCircle, FiInfo } from 'react-icons/fi';
+import { FiArrowLeft, FiCheckCircle, FiAlertTriangle, FiXCircle, FiInfo, FiShare2 } from 'react-icons/fi';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { translations } from '../../services/translations';
 
@@ -91,7 +91,61 @@ const Result = () => {
     };
 
     saveToHistory();
-  }, []);
+  }, [location.state]);
+
+  // Share function for mobile
+  const handleShare = async () => {
+    const shareData = {
+      title: 'SafeMigrate AI - Risk Result',
+      text: `Risk Level: ${mockResult.risk}\nRisk Score: ${mockResult.score}%\n\nRed Flags Detected:\n${mockResult.flags.map(f => `- ${f}`).join('\n')}\n\n${mockResult.explanation}`,
+      url: window.location.href,
+    };
+
+    // Check if Web Share API is available (mobile)
+    if (navigator.share) {
+      try {
+        await navigator.share(shareData);
+        console.log('Shared successfully!');
+      } catch (error) {
+        if (error.name !== 'AbortError') {
+          console.error('Error sharing:', error);
+          // Fallback: Copy to clipboard
+          copyToClipboard();
+        }
+      }
+    } else {
+      // Desktop fallback: Copy to clipboard
+      copyToClipboard();
+    }
+  };
+
+  // Copy to clipboard fallback
+  const copyToClipboard = () => {
+    const text = `Risk Level: ${mockResult.risk}\nRisk Score: ${mockResult.score}%\n\nRed Flags Detected:\n${mockResult.flags.map(f => `- ${f}`).join('\n')}\n\n${mockResult.explanation}`;
+    
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(text)
+        .then(() => {
+          alert('Result copied to clipboard! Share it with anyone.');
+        })
+        .catch(() => {
+          alert('Could not copy. Please copy the result manually.');
+        });
+    } else {
+      // Fallback for older browsers
+      const textarea = document.createElement('textarea');
+      textarea.value = text;
+      document.body.appendChild(textarea);
+      textarea.select();
+      try {
+        document.execCommand('copy');
+        alert('Result copied to clipboard! Share it with anyone.');
+      } catch (err) {
+        alert('Could not copy. Please copy the result manually.');
+      }
+      document.body.removeChild(textarea);
+    }
+  };
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -192,6 +246,16 @@ const Result = () => {
           >
             {t.checkAnotherOffer}
           </button>
+          
+          {/* Share Button */}
+          <button
+            onClick={handleShare}
+            className="w-full bg-green-600 text-white py-3 rounded-xl font-semibold hover:bg-green-700 transition flex items-center justify-center gap-2"
+          >
+            <FiShare2 className="h-5 w-5" />
+            Share Result
+          </button>
+
           <button
             onClick={() => navigate('/report-scam')}
             className="w-full border-2 border-red-600 text-red-600 py-3 rounded-xl font-semibold hover:bg-red-50 transition"

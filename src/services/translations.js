@@ -2,12 +2,11 @@ export const translations = {
   en: {
     // App
     appName: "SafeMigrate AI",
-    tagline: "Check Before You Go",
+    tagline: "Bahar jane se pehle, scam se bachein",
     
     // Navigation
     home: "Home",
     checkOffer: "Check Job Offer",
-    checkAgency: "Check Agency",
     reportScam: "Report a Scam",
     about: "About",
     
@@ -107,8 +106,6 @@ export const translations = {
     
     // About Screen
     aboutTitle: "About SafeMigrate AI",
-    knowWarningSigns: "Know the warning signs and protect yourself from scams",
-    protectYourself: "Protect Yourself Before You Go",
     aboutDescription: "Every year, thousands of Pakistanis lose their hard-earned money to fake recruitment agencies and fraudulent job offers. SafeMigrate AI helps you identify scams before you make a life-changing mistake.",
     commonScamWarningSigns: "Common Scam Warning Signs",
     safetyTips: "Safety Tips",
@@ -134,7 +131,6 @@ export const translations = {
     // Navigation
     home: "ہوم",
     checkOffer: "جاب آفر چیک کریں",
-    checkAgency: "ایجنسی چیک کریں",
     reportScam: "اسکیم رپورٹ کریں",
     about: "تعارف",
     
@@ -234,8 +230,6 @@ export const translations = {
     
     // About Screen
     aboutTitle: "سیف مائیگریٹ اے آئی کا تعارف",
-    knowWarningSigns: "خطرے کی علامات جانیں اور اسکیموں سے اپنی حفاظت کریں",
-    protectYourself: "جانے سے پہلے اپنی حفاظت کریں",
     aboutDescription: "ہر سال ہزاروں پاکستانی جعلی ریکروٹمنٹ ایجنسیوں اور فراڈ جاب آفرز کے ذریعے اپنی محنت کی کمائی کھو دیتے ہیں۔ سیف مائیگریٹ اے آئی آپ کو اسکیموں کی شناخت کرنے میں مدد کرتا ہے اس سے پہلے کہ آپ زندگی بھر کی غلطی کریں۔",
     commonScamWarningSigns: "اسکیم کی عام علامات",
     safetyTips: "حفاظتی نکات",
