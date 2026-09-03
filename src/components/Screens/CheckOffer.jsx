@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { FiFileText, FiUpload, FiArrowLeft } from 'react-icons/fi';
+import { FiFileText, FiUpload, FiArrowLeft, FiCamera } from 'react-icons/fi';
 import { Oval } from 'react-loader-spinner';
+import { Capacitor } from '@capacitor/core';
+import { Camera, CameraResultType, CameraSource } from '@capacitor/camera';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { translations } from '../../services/translations';
 
@@ -62,6 +64,45 @@ const CheckOffer = () => {
       setError('Image analysis failed. Please make sure the backend is running and try again.');
     } finally {
       setLoading(false);
+    }
+  };
+
+  // Native camera capture (Capacitor) — only used when running as a native app
+  const handleCameraCapture = async () => {
+    if (Capacitor.isNativePlatform()) {
+      setLoading(true);
+      setError('');
+      try {
+        const photo = await Camera.getPhoto({
+          quality: 80,
+          resultType: CameraResultType.Base64,
+          source: CameraSource.Camera,
+        });
+        // Convert base64 to blob for upload
+        const blob = await fetch(`data:image/${photo.format};base64,${photo.base64String}`).then(r => r.blob());
+        const formData = new FormData();
+        formData.append('file', blob, `photo.${photo.format}`);
+        const response = await fetch(`${API_BASE}/check-image`, {
+          method: 'POST',
+          body: formData
+        });
+        const data = await response.json();
+        if (data.error) {
+          setError(data.error);
+          return;
+        }
+        navigate('/result', { state: { result: data, imageUploaded: true } });
+      } catch (error) {
+        // User cancelling the camera shows as an error too — ignore those quietly
+        if (error && error.message && error.message.toLowerCase().includes('cancel')) {
+          console.log('Camera capture cancelled by user');
+        } else {
+          console.error('Camera capture failed:', error);
+          setError('Camera capture failed. Please try again.');
+        }
+      } finally {
+        setLoading(false);
+      }
     }
   };
 
@@ -129,7 +170,22 @@ const CheckOffer = () => {
             </label>
           </div>
           <p className="text-gray-500 text-sm mb-4">{t.uploadDesc}</p>
-          
+
+          {Capacitor.isNativePlatform() && (
+            <button
+              onClick={handleCameraCapture}
+              disabled={loading}
+              className={`w-full py-3 mb-4 rounded-xl font-semibold text-white transition flex items-center justify-center gap-2 ${
+                loading
+                  ? 'bg-gray-400 cursor-not-allowed'
+                  : 'bg-blue-600 hover:bg-blue-700'
+              }`}
+            >
+              <FiCamera className="h-5 w-5" />
+              Take Photo
+            </button>
+          )}
+
           <label className="w-full">
             <div className="border-2 border-dashed border-gray-300 rounded-xl p-8 text-center hover:border-blue-500 transition cursor-pointer">
               <FiFileText className="h-12 w-12 text-gray-400 mx-auto mb-3" />

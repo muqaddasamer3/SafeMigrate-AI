@@ -18,3 +18,12 @@ Thumbs.db
 firebase-key.json
 secrets/
 *.sqlite3
+
+# Android / Capacitor build artifacts (source committed, artifacts ignored)
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/captures/
+android/.idea/
+android/.cxx/
