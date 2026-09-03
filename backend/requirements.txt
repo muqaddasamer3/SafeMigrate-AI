@@ -6,3 +6,4 @@ joblib==1.4.2
 pytesseract==0.3.13
 pillow==10.4.0
 python-multipart==0.0.12
+beautifulsoup4==4.12.3
