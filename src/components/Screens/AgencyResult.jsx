@@ -19,6 +19,8 @@ const AgencyResult = () => {
   const contact = agencyData?.contact_info || 'N/A';
   const city = agencyData?.city || 'N/A';
   const confidence = agencyData?.confidence ?? 0;
+  const isUrdu = language === 'ur';
+  const urduCls = isUrdu ? 'urdu-text' : '';
 
   useEffect(() => {
     if (!agencyData) return;
@@ -60,7 +62,7 @@ const AgencyResult = () => {
     <div className="min-h-screen bg-gray-50">
       <div className={`bg-gradient-to-r ${
         isVerified ? 'from-green-600 to-green-800' : 'from-red-600 to-red-800'
-      } px-6 pt-12 pb-6 rounded-b-3xl shadow-lg`}>
+      } px-6 pt-12 pb-6 rounded-b-3xl shadow-lg ${urduCls}`}>
         <button
           onClick={() => navigate('/check-agency')}
           className="flex items-center text-white mb-4 hover:text-gray-200 transition"
@@ -74,7 +76,7 @@ const AgencyResult = () => {
         </p>
       </div>
 
-      <div className="px-6 py-6">
+      <div className={`px-6 py-6 ${urduCls}`}>
         <div className={`border-2 rounded-2xl p-6 shadow-sm ${
           isVerified 
             ? 'bg-green-50 border-green-200' 

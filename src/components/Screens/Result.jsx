@@ -18,6 +18,8 @@ const Result = () => {
   const reasons = language === 'ur' ? (result?.reasons_ur || []) : (result?.reasons_en || []);
   const nextSteps = language === 'ur' ? (result?.next_steps_ur || []) : (result?.next_steps_en || []);
   const message = language === 'ur' ? (result?.message_ur || '') : (result?.message_en || '');
+  const isUrdu = language === 'ur';
+  const urduCls = isUrdu ? 'urdu-text' : '';
 
   useEffect(() => {
     if (!result) return;
@@ -152,7 +154,7 @@ const Result = () => {
         riskLabel === 'Low' ? 'from-green-600 to-green-800' :
         riskLabel === 'Medium' ? 'from-yellow-600 to-yellow-800' :
         'from-red-600 to-red-800'
-      } px-6 pt-12 pb-6 rounded-b-3xl shadow-lg`}>
+      } px-6 pt-12 pb-6 rounded-b-3xl shadow-lg ${urduCls}`}>
         <button
           onClick={() => navigate('/check-offer')}
           className="flex items-center text-white mb-4 hover:text-gray-200 transition"
@@ -164,7 +166,7 @@ const Result = () => {
         <p className="text-white/80 text-sm mt-1">{t.heresWhatFound}</p>
       </div>
 
-      <div className="px-6 py-6">
+      <div className={`px-6 py-6 ${urduCls}`}>
         <div className={`${getRiskBgColor(riskLabel)} border-2 rounded-2xl p-6 shadow-sm`}>
           <div className="flex items-start gap-4">
             <div className={`p-3 rounded-full ${

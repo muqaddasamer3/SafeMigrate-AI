@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FiFileText, FiUpload, FiArrowLeft } from 'react-icons/fi';
+import { Oval } from 'react-loader-spinner';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { translations } from '../../services/translations';
 
@@ -95,6 +96,12 @@ const CheckOffer = () => {
             className="w-full h-48 p-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none text-gray-700"
           />
           
+          {loading && (
+            <div className="flex justify-center py-4">
+              <Oval height={40} width={40} color="#4F46E5" secondaryColor="#818CF8" />
+            </div>
+          )}
+
           <button
             onClick={handleAnalyze}
             disabled={loading}
