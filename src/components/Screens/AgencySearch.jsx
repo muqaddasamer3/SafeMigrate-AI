@@ -4,24 +4,34 @@ import { FiArrowLeft, FiSearch, FiHome } from 'react-icons/fi';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { translations } from '../../services/translations';
 
+const API_BASE = process.env.REACT_APP_API_URL || 'http://127.0.0.1:8000';
+
 const AgencySearch = () => {
   const navigate = useNavigate();
   const { language } = useLanguage();
   const t = translations[language];
   const [searchTerm, setSearchTerm] = useState('');
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
 
-  const handleSearch = () => {
+  const handleSearch = async () => {
     if (!searchTerm.trim()) {
       alert('Please enter an agency name');
       return;
     }
 
     setLoading(true);
-    setTimeout(() => {
+    setError('');
+    try {
+      const response = await fetch(`${API_BASE}/check-agency?name=${encodeURIComponent(searchTerm.trim())}`);
+      const data = await response.json();
+      navigate('/agency-result', { state: { agency: data, searchQuery: searchTerm } });
+    } catch (err) {
+      console.error('Agency search failed:', err);
+      setError('Search failed. Please make sure the backend is running and try again.');
+    } finally {
       setLoading(false);
-      navigate('/agency-result', { state: { agencyName: searchTerm } });
-    }, 1500);
+    }
   };
 
   const handleKeyPress = (e) => {
@@ -45,6 +55,11 @@ const AgencySearch = () => {
       </div>
 
       <div className="px-6 py-6">
+        {error && (
+          <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-xl text-red-700 text-sm">
+            {error}
+          </div>
+        )}
         <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6">
           <div className="flex items-center gap-3 mb-4">
             <FiHome className="h-6 w-6 text-green-600" />
@@ -80,52 +95,24 @@ const AgencySearch = () => {
           <h3 className="font-semibold text-gray-700 mb-3">{t.tipsForSearching}</h3>
           <ul className="space-y-2 text-sm text-gray-600">
             <li className="flex items-start gap-2">
-              <span className="text-green-500 font-bold">•</span>
+              <span className="text-green-500 font-bold">{"\u2022"}</span>
               <span>{t.tip1}</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-green-500 font-bold">•</span>
+              <span className="text-green-500 font-bold">{"\u2022"}</span>
               <span>{t.tip2}</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-green-500 font-bold">•</span>
+              <span className="text-green-500 font-bold">{"\u2022"}</span>
               <span>{t.tip3}</span>
             </li>
           </ul>
         </div>
 
-        <div className="mt-6 bg-white rounded-2xl border border-gray-200 p-5">
-          <h3 className="font-semibold text-gray-700 mb-3">{t.verifiedAgencies}</h3>
-          <div className="space-y-3">
-            <div className="flex items-center justify-between p-3 bg-green-50 rounded-xl border border-green-200">
-              <div>
-                <p className="font-semibold text-gray-800">Al-Falah Overseas</p>
-                <p className="text-xs text-gray-500">License: BE-2024-1123</p>
-              </div>
-              <span className="px-3 py-1 bg-green-500 text-white text-xs font-semibold rounded-full">
-                {t.verified}
-              </span>
-            </div>
-            <div className="flex items-center justify-between p-3 bg-green-50 rounded-xl border border-green-200">
-              <div>
-                <p className="font-semibold text-gray-800">Gulf Recruiters</p>
-                <p className="text-xs text-gray-500">License: BE-2024-0892</p>
-              </div>
-              <span className="px-3 py-1 bg-green-500 text-white text-xs font-semibold rounded-full">
-                {t.verified}
-              </span>
-            </div>
-            <div className="flex items-center justify-between p-3 bg-red-50 rounded-xl border border-red-200">
-              <div>
-                <p className="font-semibold text-gray-800">Fast Track Overseas</p>
-                <p className="text-xs text-gray-500">License: Not Found</p>
-              </div>
-              <span className="px-3 py-1 bg-red-500 text-white text-xs font-semibold rounded-full">
-                {t.notVerified}
-              </span>
-            </div>
-          </div>
-          <p className="text-xs text-gray-400 mt-3 text-center">{t.sampleData}</p>
+        <div className="mt-6 bg-green-50 rounded-2xl border border-green-200 p-5 text-center">
+          <p className="text-green-700 text-sm font-medium">
+            Search for any agency by name to verify their BEOE registration status.
+          </p>
         </div>
       </div>
     </div>

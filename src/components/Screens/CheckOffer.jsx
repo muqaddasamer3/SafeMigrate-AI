@@ -4,34 +4,63 @@ import { FiFileText, FiUpload, FiArrowLeft } from 'react-icons/fi';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { translations } from '../../services/translations';
 
+const API_BASE = process.env.REACT_APP_API_URL || 'http://127.0.0.1:8000';
+
 const CheckOffer = () => {
   const navigate = useNavigate();
   const { language } = useLanguage();
   const t = translations[language];
   const [text, setText] = useState('');
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
 
-  const handleAnalyze = () => {
+  const handleAnalyze = async () => {
     if (!text.trim()) {
       alert('Please paste some text to analyze');
       return;
     }
-    
     setLoading(true);
-    setTimeout(() => {
+    setError('');
+    try {
+      const response = await fetch(`${API_BASE}/check-text`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text: text.trim() })
+      });
+      const data = await response.json();
+      navigate('/result', { state: { result: data, inputText: text } });
+    } catch (err) {
+      console.error('Analysis failed:', err);
+      setError('Analysis failed. Please make sure the backend is running and try again.');
+    } finally {
       setLoading(false);
-      navigate('/result', { state: { text: text } });
-    }, 2000);
+    }
   };
 
-  const handleFileUpload = (event) => {
+  const handleFileUpload = async (event) => {
     const file = event.target.files[0];
-    if (file) {
-      setLoading(true);
-      setTimeout(() => {
+    if (!file) return;
+    setLoading(true);
+    setError('');
+    try {
+      const formData = new FormData();
+      formData.append('file', file);
+      const response = await fetch(`${API_BASE}/check-image`, {
+        method: 'POST',
+        body: formData
+      });
+      const data = await response.json();
+      if (data.error) {
+        setError(data.error);
         setLoading(false);
-        navigate('/result', { state: { imageUploaded: true } });
-      }, 2000);
+        return;
+      }
+      navigate('/result', { state: { result: data, imageUploaded: true } });
+    } catch (err) {
+      console.error('Image analysis failed:', err);
+      setError('Image analysis failed. Please make sure the backend is running and try again.');
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -50,6 +79,11 @@ const CheckOffer = () => {
       </div>
 
       <div className="px-6 py-6">
+        {error && (
+          <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-xl text-red-700 text-sm">
+            {error}
+          </div>
+        )}
         <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5">
           <label className="block text-gray-700 font-semibold mb-2">
             {t.pasteOfferText}

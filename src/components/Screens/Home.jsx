@@ -6,9 +6,9 @@ import {
   FaExclamationTriangle,
   FaShieldAlt,
   FaChartLine,
-  FaCheckCircle,
-  FaUserCheck,
-  FaHistory
+  FaHistory,
+  FaGlobe,
+  FaDatabase
 } from 'react-icons/fa';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { translations } from '../../services/translations';
@@ -54,26 +54,25 @@ const Home = () => {
     }
   ];
 
-  // Stats data
   const stats = [
     {
-      icon: FaChartLine,
-      value: "1,247+",
-      label: "Scams Detected",
+      icon: FaDatabase,
+      value: "BEOE",
+      label: "Verified Agencies",
       color: "text-blue-600",
       bgColor: "bg-blue-50"
     },
     {
-      icon: FaCheckCircle,
-      value: "156+",
-      label: "Verified Agencies",
+      icon: FaChartLine,
+      value: "Real-time",
+      label: "Scam Detection",
       color: "text-green-600",
       bgColor: "bg-green-50"
     },
     {
-      icon: FaUserCheck,
-      value: "98%",
-      label: "Accuracy Rate",
+      icon: FaGlobe,
+      value: "EN/UR",
+      label: "Bilingual Support",
       color: "text-purple-600",
       bgColor: "bg-purple-50"
     }
@@ -154,7 +153,7 @@ const Home = () => {
           })}
         </div>
 
-        {/* History Button - NEW */}
+        {/* History Button */}
         <div className="mt-4">
           <div 
             onClick={() => navigate('/history')}

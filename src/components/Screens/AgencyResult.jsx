@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { FiArrowLeft, FiCheckCircle, FiXCircle, FiInfo, FiMapPin, FiPhone, FiFileText } from 'react-icons/fi';
+import { FiArrowLeft, FiCheckCircle, FiXCircle, FiInfo, FiMapPin, FiPhone } from 'react-icons/fi';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { translations } from '../../services/translations';
 
@@ -9,44 +9,52 @@ const AgencyResult = () => {
   const location = useLocation();
   const { language } = useLanguage();
   const t = translations[language];
-  
-  const agencyName = location.state?.agencyName || 'Al-Falah Overseas';
-  
-  const mockAgency = {
-    verified: true,
-    name: agencyName,
-    licenseNumber: 'BE-2024-1123',
-    contact: '+92-42-1234567',
-    city: 'Lahore',
-    status: 'Active',
-    address: '123 Main Street, Lahore, Pakistan'
-  };
 
-  const isVerified = mockAgency.verified;
+  const agencyData = location.state?.agency;
 
-  // Save to history when result loads
+  const isVerified = agencyData?.matched === true;
+  const agencyName = agencyData?.agency_name || location.state?.searchQuery || 'Unknown';
+  const licenseNumber = agencyData?.license_number || 'N/A';
+  const status = agencyData?.status || 'N/A';
+  const contact = agencyData?.contact_info || 'N/A';
+  const city = agencyData?.city || 'N/A';
+  const confidence = agencyData?.confidence ?? 0;
+
   useEffect(() => {
-    const saveToHistory = () => {
-      const historyEntry = {
-        type: 'agency',
-        risk: isVerified ? 'Low' : 'High',
-        text: null,
-        agencyName: agencyName,
-        date: new Date().toISOString()
-      };
-
-      const savedHistory = localStorage.getItem('safeMigrateHistory');
-      let history = savedHistory ? JSON.parse(savedHistory) : [];
-      history.unshift(historyEntry);
-      // Keep only last 50 entries
-      if (history.length > 50) {
-        history = history.slice(0, 50);
-      }
-      localStorage.setItem('safeMigrateHistory', JSON.stringify(history));
+    if (!agencyData) return;
+    const historyEntry = {
+      type: 'agency',
+      risk: isVerified ? 'Low' : 'High',
+      text: null,
+      agencyName: agencyName,
+      date: new Date().toISOString()
     };
-
-    saveToHistory();
+    const savedHistory = localStorage.getItem('safeMigrateHistory');
+    let history = savedHistory ? JSON.parse(savedHistory) : [];
+    history.unshift(historyEntry);
+    if (history.length > 50) {
+      history = history.slice(0, 50);
+    }
+    localStorage.setItem('safeMigrateHistory', JSON.stringify(history));
   }, [agencyName, isVerified]);
+
+  if (!agencyData) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center px-6">
+        <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-8 max-w-md w-full text-center">
+          <FiXCircle className="h-12 w-12 text-yellow-500 mx-auto mb-4" />
+          <h2 className="text-xl font-bold text-gray-800 mb-2">No Agency Data</h2>
+          <p className="text-gray-600 mb-6">Please search for an agency first.</p>
+          <button
+            onClick={() => navigate('/check-agency')}
+            className="w-full bg-green-600 text-white py-3 rounded-xl font-semibold hover:bg-green-700 transition"
+          >
+            Search Agency
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -93,6 +101,11 @@ const AgencyResult = () => {
               }`}>
                 {isVerified ? t.registeredWithGov : t.notInVerifiedList}
               </p>
+              <p className={`text-xs mt-1 ${
+                isVerified ? 'text-green-500' : 'text-red-500'
+              }`}>
+                Match confidence: {Math.round(confidence * 100)}%
+              </p>
             </div>
           </div>
         </div>
@@ -106,20 +119,20 @@ const AgencyResult = () => {
           <div className="space-y-3">
             <div className="flex justify-between items-center py-2 border-b border-gray-100">
               <span className="text-gray-600 text-sm">{t.agencyName}</span>
-              <span className="font-semibold text-gray-800">{mockAgency.name}</span>
+              <span className="font-semibold text-gray-800">{agencyName}</span>
             </div>
             
             {isVerified && (
               <>
                 <div className="flex justify-between items-center py-2 border-b border-gray-100">
                   <span className="text-gray-600 text-sm">{t.licenseNumber}</span>
-                  <span className="font-semibold text-gray-800">{mockAgency.licenseNumber}</span>
+                  <span className="font-semibold text-gray-800">{licenseNumber}</span>
                 </div>
                 
                 <div className="flex justify-between items-center py-2 border-b border-gray-100">
                   <span className="text-gray-600 text-sm">{t.status}</span>
                   <span className="px-3 py-1 bg-green-100 text-green-700 text-xs font-semibold rounded-full">
-                    {mockAgency.status}
+                    {status}
                   </span>
                 </div>
               </>
@@ -130,7 +143,7 @@ const AgencyResult = () => {
                 <FiMapPin className="h-4 w-4" />
                 {t.city}
               </span>
-              <span className="font-semibold text-gray-800">{mockAgency.city}</span>
+              <span className="font-semibold text-gray-800">{city}</span>
             </div>
 
             {isVerified && (
@@ -139,19 +152,7 @@ const AgencyResult = () => {
                   <FiPhone className="h-4 w-4" />
                   {t.contact}
                 </span>
-                <span className="font-semibold text-gray-800">{mockAgency.contact}</span>
-              </div>
-            )}
-
-            {isVerified && (
-              <div className="flex justify-between items-center py-2">
-                <span className="text-gray-600 text-sm flex items-center gap-1">
-                  <FiFileText className="h-4 w-4" />
-                  {t.address}
-                </span>
-                <span className="font-semibold text-gray-800 text-sm text-right">
-                  {mockAgency.address}
-                </span>
+                <span className="font-semibold text-gray-800">{contact}</span>
               </div>
             )}
           </div>
@@ -165,7 +166,7 @@ const AgencyResult = () => {
           <h3 className={`font-semibold mb-2 ${
             isVerified ? 'text-blue-800' : 'text-orange-800'
           }`}>
-            {isVerified ? '✅ ' + t.whatThisMeans : '⚠️ ' + t.whatThisMeans}
+            {isVerified ? '\u2705 ' + t.whatThisMeans : '\u26A0\uFE0F ' + t.whatThisMeans}
           </h3>
           <p className={`text-sm ${
             isVerified ? 'text-blue-700' : 'text-orange-700'

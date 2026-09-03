@@ -4,6 +4,8 @@ import { FiArrowLeft, FiAlertTriangle, FiCheckCircle } from 'react-icons/fi';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { translations } from '../../services/translations';
 
+const API_BASE = process.env.REACT_APP_API_URL || 'http://127.0.0.1:8000';
+
 const ReportScam = () => {
   const navigate = useNavigate();
   const { language } = useLanguage();
@@ -15,6 +17,7 @@ const ReportScam = () => {
   });
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -24,24 +27,38 @@ const ReportScam = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     
-    if (!formData.agencyName.trim() || !formData.description.trim() || !formData.date) {
-      alert('Please fill in all fields');
+    if (!formData.agencyName.trim() || !formData.description.trim()) {
+      alert('Please fill in all required fields');
       return;
     }
 
     setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-      setSubmitted(true);
-      setFormData({
-        agencyName: '',
-        description: '',
-        date: ''
+    setError('');
+    try {
+      const response = await fetch(`${API_BASE}/report-scam`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          agency_name: formData.agencyName.trim(),
+          description: formData.description.trim()
+        })
       });
-    }, 1500);
+      const data = await response.json();
+      if (data.status === 'success') {
+        setSubmitted(true);
+        setFormData({ agencyName: '', description: '', date: '' });
+      } else {
+        setError(data.message || 'Submission failed. Please try again.');
+      }
+    } catch (err) {
+      console.error('Report submission failed:', err);
+      setError('Submission failed. Please make sure the backend is running and try again.');
+    } finally {
+      setLoading(false);
+    }
   };
 
   if (submitted) {
@@ -90,6 +107,11 @@ const ReportScam = () => {
       </div>
 
       <div className="px-6 py-6">
+        {error && (
+          <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-xl text-red-700 text-sm">
+            {error}
+          </div>
+        )}
         <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6">
           <div className="bg-orange-50 border border-orange-200 rounded-xl p-4 mb-6">
             <div className="flex items-start gap-3">
@@ -119,7 +141,7 @@ const ReportScam = () => {
 
             <div className="mb-5">
               <label className="block text-gray-700 font-semibold mb-2">
-                {t.dateOfIncident} <span className="text-red-500">*</span>
+                {t.dateOfIncident}
               </label>
               <input
                 type="date"
@@ -127,7 +149,6 @@ const ReportScam = () => {
                 value={formData.date}
                 onChange={handleChange}
                 className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-orange-500 focus:border-transparent outline-none text-gray-700"
-                required
               />
             </div>
 
