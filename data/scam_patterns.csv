@@ -36,3 +36,12 @@ P034,data entry,suspicious_channel,0.3
 P035,part time full time,unrealistic_claim,0.4
 P036,age requirement,suspicious_channel,0.3
 P037,optimize data,unrealistic_claim,0.4
+P038,گرنتیڈ ویزا,unrealistic_claim,0.75
+P039,فیس پہلے جما,upfront_fee,0.85
+P040,پیسے بھیجیں,upfront_fee,0.85
+P041,پیسے بیجیں,upfront_fee,0.85
+P042,جلدی کریں,pressure_tactic,0.7
+P043,کینسل ہو جائے گی,pressure_tactic,0.8
+P044,کنسل ہو جائے گی,pressure_tactic,0.8
+P045,سلیکٹ ہو گئے,unrealistic_claim,0.5
+P046,سلکٹ ہو گئے,unrealistic_claim,0.5
