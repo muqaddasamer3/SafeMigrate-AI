@@ -1,7 +1,1660 @@
-﻿agency_id,agency_name,license_number,status,contact_info,city
-AG001,Al-Falah Overseas Employment,BE-2019-1123,Active,042-111222333,Lahore
-AG002,Gulf Star Recruitment,BE-2020-2245,Active,021-333444555,Karachi
-AG003,National Manpower Services,BE-2018-0871,Active,051-222333444,Islamabad
-AG004,Bright Future Overseas,BE-2021-3390,Suspended,042-555666777,Lahore
-AG005,Peshawar International Recruiters,BE-2017-0456,Active,091-444555666,Peshawar
-AG006,Faisalabad Manpower Corp,BE-2022-4410,Active,041-333222111,Faisalabad
+agency_id,agency_name,license_number,status,contact_info,city
+AG001,Mumtaz Agencies,0008 / RWP,Active,,Rawalpindi
+AG002,Al-Hadait Industries,0021 / SKT,Active,,Sialkot
+AG003,Haroon Recruiting Agency,0035 / KAR,Active,,Karachi
+AG004,Eastern Commodities Corporation,0036 / KAR,Active,,Karachi
+AG005,Chaudhry Recruting Agency,0055 / GRT,Active,,Gujrat
+AG006,Al-Amal Company,0056 / RWP,Active,,Rawalpindi
+AG007,Mackinon Mackenzie Co. of Pak,0077 / KAR,Active,,Karachi
+AG008,Allied Services International Ltd.,0089 / KAR,Active,,Karachi
+AG009,Popular International Recruiting Agency,0110 / LHR,Active,,Lahore
+AG010,Continental Travels,0114 / LHR,Active,,Lahore
+AG011,Humayun Travel Service,0118 / RWP,Active,,Rawalpindi
+AG012,Barlex Agencies,0121 / LHR,Active,,Lahore
+AG013,Gullivers,0122 / KAR,Active,,Karachi
+AG014,Tahir and Company,0132 / KAR,Active,,Karachi
+AG015,Jan Muhammad & Sons,0140 / RWP,Active,,Rawalpindi
+AG016,Warraich Enterprises,0167 / LHR,Active,,Lahore
+AG017,Islamabad Air Services,0169 / RWP,Active,,Rawalpindi
+AG018,Shameem Express,0176 / RWP,Active,,Rawalpindi
+AG019,Fazal Muqeem Qazi,0233 / PWR,Active,,
+AG020,Speed Man,0234 / KAR,Active,,Karachi
+AG021,Universal Employment Center,0237 / KAR,Active,,Karachi
+AG022,Syed Sarwar Shah,0250 / KAR,Active,,Karachi
+AG023,Mehran International Traders,0255 / KAR,Active,,Karachi
+AG024,Excellent Trading Corp. Ltd,0299 / KAR,Active,,Karachi
+AG025,Mughal Traders,0305 / KAR,Active,,Karachi
+AG026,Fauji Foundation,0310 / RWP,Active,,Rawalpindi
+AG027,Hameed Recruiting Agency,0316 / RWP,Active,,Rawalpindi
+AG028,Khaleeq Recruiting Agency,0319 / RWP,Active,,Rawalpindi
+AG029,Pakistan Progressive Associates,0332 / LHR,Active,,Lahore
+AG030,Al-Khair,0333 / KAR,Active,,Karachi
+AG031,Personnel Services Bureau,0345 / KAR,Active,,Karachi
+AG032,Shaheen Traders,0353 / KAR,Active,,Karachi
+AG033,Peoples Travel,0374 / RWP,Active,,Rawalpindi
+AG034,Crystel (Over Wing) Enterprises,0393 / SKT,Active,,Sialkot
+AG035,Azam Internnational Agency,0395 / RWP,Active,,Rawalpindi
+AG036,Al-Yasin Enterprises,0405 / RWP,Active,,Rawalpindi
+AG037,Al-Baig Enterprises,0418 / GRT,Active,,Gujrat
+AG038,A-1 Agency,0444 / RWP,Active,,Rawalpindi
+AG039,Rajput Recruiting Agency,0450 / RWP,Active,,Rawalpindi
+AG040,Al-Aslam Enterprises,0464 / RWP,Active,,Rawalpindi
+AG041,Irum Recruiting Agency,0473 / RWP,Active,,Rawalpindi
+AG042,Khalid Recruiting Agency,0478 / SKT,Active,,Sialkot
+AG043,Kashmir Traders,0492 / KAR,Active,,Karachi
+AG044,Salim Agencies,0497 / KAR,Active,,Karachi
+AG045,Al-Khair Enterprises,0510 / RWP,Active,,Rawalpindi
+AG046,Al-Mukhtar Agencies,0543 / KAR,Active,,Karachi
+AG047,Baig Travels,0551 / LHR,Active,,Lahore
+AG048,Trans Arabian Travel & Trade,0561 / RWP,Active,,Rawalpindi
+AG049,Royal Travel Service PVT ltd,0578 / LHR,Active,,Lahore
+AG050,Hamayoon Traders,0598 / KAR,Active,,Karachi
+AG051,Shaheen Foundation Overseas Employment Agency,0612 / RWP,Active,,Rawalpindi
+AG052,Air Travel Services,0613 / KAR,Active,,Karachi
+AG053,Bahria Recruiting Agency,0634 / KAR,Active,,Karachi
+AG054,Kayani Corporation,0650 / RWP,Active,,Rawalpindi
+AG055,Pak Kashmiri Technocrafts,0652 / RWP,Active,,Rawalpindi
+AG056,Yousaf Enterprises,0657 / RWP,Active,,Rawalpindi
+AG057,Iqbal Manpower Consultants,0658 / RWP,Active,,Rawalpindi
+AG058,Shahab Recruiting Agency,0661 / PWR,Active,,
+AG059,Dawood Enterprises,0662 / KAR,Active,,Karachi
+AG060,Al-Abbasi Enterprises,0664 / RWP,Active,,Rawalpindi
+AG061,Shahid Traders,0665 / KAR,Active,,Karachi
+AG062,Sasha International,0668 / RWP,Active,,Rawalpindi
+AG063,Luna Corporation,0669 / LHR,Active,,Lahore
+AG064,Mahmood Iraqi Overseas Employment Promoters,0673 / RWP,Active,,Rawalpindi
+AG065,Arab International,0678 / GRT,Active,,Gujrat
+AG066,Zubair & Sons,0679 / KAR,Active,,Karachi
+AG067,Al-Waqas Enterprises,0680 / RWP,Active,,Rawalpindi
+AG068,Razzaq Enterprises,0688 / RWP,Active,,Rawalpindi
+AG069,Qureshi Brothers,0696 / RWP,Active,,Rawalpindi
+AG070,Ali Zafar Recruiting Agency,0700 / KAR,Active,,Karachi
+AG071,Farooq Paracha,0703 / KAR,Active,,Karachi
+AG072,Sir International,0704 / RWP,Active,,Rawalpindi
+AG073,Descon Engineering Limited,0710 / LHR,Active,,Lahore
+AG074,Khawaja Associates,0711 / RWP,Active,,Rawalpindi
+AG075,Channels Communications,0714 / KAR,Active,,Karachi
+AG076,Al-Sheikh Corporation,0715 / RWP,Active,,Rawalpindi
+AG077,Marhaba Overseas Employment Promoter,0716 / RWP,Active,,Rawalpindi
+AG078,Eureka (Pvt) Limited,0717 / LHR,Active,,Lahore
+AG079,Chaudhry Associates,0718 / LHR,Active,,Lahore
+AG080,Rinch International,0719 / KAR,Active,,Karachi
+AG081,Kashmir Overseas Employment,0725 / RWP,Active,,Rawalpindi
+AG082,Adnan Corporation,0741 / RWP,Active,,Rawalpindi
+AG083,Ansari Associates,0747 / RWP,Active,,Rawalpindi
+AG084,Madiha International,0753 / KAR,Active,,Karachi
+AG085,Orakzai Overseas Enterprises,0754 / RWP,Active,,Rawalpindi
+AG086,Ch. Khadim Hussain & Company,0764 / GRT,Active,,Gujrat
+AG087,G.F.Q. International Employment Bureau,0765 / RWP,Active,,Rawalpindi
+AG088,Al-Amir Corporation,0771 / LHR,Active,,Lahore
+AG089,Salman International,0772 / SKT,Active,,Sialkot
+AG090,Noor Recruiting Agency,0777 / RWP,Active,,Rawalpindi
+AG091,Al-Jadid Manpower Services,0795 / RWP,Active,,Rawalpindi
+AG092,Raja Mushtaq Enterprises,0798 / RWP,Active,,Rawalpindi
+AG093,Madina Recruiting Agency,0800 / RWP,Active,,Rawalpindi
+AG094,Ghega Overseas Employment Promoters,0804 / GRT,Active,,Gujrat
+AG095,R.B.S. Brothers,0806 / RWP,Active,,Rawalpindi
+AG096,Liaqat Travel International,0809 / LHR,Active,,Lahore
+AG097,Raza International Corporation,0812 / LHR,Active,,Lahore
+AG098,Islamabad Overseas Employment Promoter,0814 / RWP,Active,,Rawalpindi
+AG099,Paracha Enterprises,0819 / RWP,Active,,Rawalpindi
+AG100,Arfat International,0822 / LHR,Active,,Lahore
+AG101,Mehboob Enterprises,0833 / RWP,Active,,Rawalpindi
+AG102,Ovais Traders,0834 / RWP,Active,,Rawalpindi
+AG103,Jan Express,0835 / PWR,Active,,
+AG104,Bilal Enterprises,0838 / KAR,Active,,Karachi
+AG105,The Premier International,0844 / LHR,Active,,Lahore
+AG106,Rawal International,0848 / LHR,Active,,Lahore
+AG107,Al-Mubashir Recruiting Agency,0849 / RWP,Active,,Rawalpindi
+AG108,Al-Ghaffar Travel Agency,0851 / KAR,Active,,Karachi
+AG109,M.R. Chaudhray & Co.,0857 / RWP,Active,,Rawalpindi
+AG110,Al-Qudus International,0859 / RWP,Active,,Rawalpindi
+AG111,Air International,0863 / RWP,Active,,Rawalpindi
+AG112,Polani (Overseas) Agency,0871 / KAR,Active,,Karachi
+AG113,Badar Corporation,0878 / RWP,Active,,Rawalpindi
+AG114,Abid Enterprises,0879 / RWP,Active,,Rawalpindi
+AG115,Al-Karam International,0882 / KAR,Active,,Karachi
+AG116,Jehad Recruiting Agency,0892 / MLK,Active,,Malakand
+AG117,Al-Najam International,0899 / LHR,Active,,Lahore
+AG118,Zeb Travels,0903 / RWP,Active,,Rawalpindi
+AG119,Rex International,0905 / GRT,Active,,Gujrat
+AG120,Ch. Zakaullah Recruiting Agency,0911 / SKT,Active,,Sialkot
+AG121,Al-Ghousia Enterprises,0918 / RWP,Active,,Rawalpindi
+AG122,Sadullah Enterprises,0921 / MLK,Active,,Malakand
+AG123,Harmain Enterprises,0922 / KAR,Active,,Karachi
+AG124,Ittefaq Recruiting Agency,0923 / LHR,Active,,Lahore
+AG125,Globe Corporation,0924 / LHR,Active,,Lahore
+AG126,SKY Kings Travel,0938 / SKT,Active,,Sialkot
+AG127,Jamshaid Corporation,0939 / RWP,Active,,Rawalpindi
+AG128,Mian Labour Flow Enterprises,0941 / LHR,Active,,Lahore
+AG129,Hussain & Co.,0947 / RWP,Active,,Rawalpindi
+AG130,Abu-Al-Hassan Trading Corporation,0949 / RWP,Active,,Rawalpindi
+AG131,R.S Recruiting Agency,0951 / RWP,Active,,Rawalpindi
+AG132,Pamela Travels,0956 / SKT,Active,,Sialkot
+AG133,Al-Mansoor Enterprises,0959 / KAR,Active,,Karachi
+AG134,Hafiz Muhammad & Sons Travel Services Manpower Promoters,0962 / SKT,Active,,Sialkot
+AG135,Sethi Corporation,0964 / RWP,Active,,Rawalpindi
+AG136,Ashraf & Sons,0967 / RWP,Active,,Rawalpindi
+AG137,Al-Sadaf Traders,0970 / RWP,Active,,Rawalpindi
+AG138,Islamic Manpower Promoters,0972 / RWP,Active,,Rawalpindi
+AG139,Abid Recruting Agency,0977 / MLK,Active,,Malakand
+AG140,Ayub International,0981 / LHR,Active,,Lahore
+AG141,Shoaib Associates,0983 / KAR,Active,,Karachi
+AG142,Bismillah  International,0990 / RWP,Active,,Rawalpindi
+AG143,Raja Javed Enterprises,0999 / RWP,Active,,Rawalpindi
+AG144,Haris International,1008 / RWP,Active,,Rawalpindi
+AG145,National Manpower Bureau,1018 / LHR,Active,,Lahore
+AG146,Sabhia Enterprises,1025 / KAR,Active,,Karachi
+AG147,Afzal Enterprises,1032 / RWP,Active,,Rawalpindi
+AG148,Pothohar Manpower,1040 / RWP,Active,,Rawalpindi
+AG149,Munir Recruiting Agency,1046 / LHR,Active,,Lahore
+AG150,Pak Kashmir Overseas Corporation,1047 / KAR,Active,,Karachi
+AG151,Aqsa Enterprises,1052 / LHR,Active,,Lahore
+AG152,Al-Rauf International,1055 / RWP,Active,,Rawalpindi
+AG153,Hira Corporation,1061 / RWP,Active,,Rawalpindi
+AG154,Swal Khan Recruiting Agency,1062 / MLK,Active,,Malakand
+AG155,S.B Enterprises,1063 / RWP,Active,,Rawalpindi
+AG156,Medcon International,1066 / LHR,Active,,Lahore
+AG157,Al-Kohsar International,1067 / RWP,Active,,Rawalpindi
+AG158,Blue Moon Enterpises,1074 / RWP,Active,,Rawalpindi
+AG159,Sarban Recruiting Agency,1082 / ABT,Active,,Abbottabad
+AG160,Al-Harmain International,1086 / RWP,Active,,Rawalpindi
+AG161,Usman & Brothers,1088 / KAR,Active,,Karachi
+AG162,Al Hayat Overseas,1096 / LHR,Active,,Lahore
+AG163,Kafeel Corporation,1101 / LHR,Active,,Lahore
+AG164,Zubair International,1112 / KAR,Active,,Karachi
+AG165,Master Khalil Recruiting Agency,1120 / MLK,Active,,Malakand
+AG166,Pearltec Pakistan Private limited,1123 / RWP,Active,,Rawalpindi
+AG167,M.J. Enterprises,1151 / RWP,Active,,Rawalpindi
+AG168,Rehmani Recruiting Agency,1153 / KAR,Active,,Karachi
+AG169,Al-Ejaz International,1157 / LHR,Active,,Lahore
+AG170,Supreme Travels & Overseas Employment,1159 / MTN,Active,,
+AG171,Abaseen Enterprises,1162 / MLK,Active,,Malakand
+AG172,SWAT CORPORATION,1164 / MLK,Active,,Malakand
+AG173,Amigo Trading Corporation,1165 / RWP,Active,,Rawalpindi
+AG174,Gulistan Recruiting Agency,1177 / RWP,Active,,Rawalpindi
+AG175,Pine Hills International,1180 / RWP,Active,,Rawalpindi
+AG176,Talal International,1191 / RWP,Active,,Rawalpindi
+AG177,Rabat Corporation,1196 / MLK,Active,,Malakand
+AG178,Al-Falah Enterprises,1197 / RWP,Active,,Rawalpindi
+AG179,Afridi Ent.,1199 / PWR,Active,,
+AG180,Waseem Recruiting & Travel Services,1200 / SKT,Active,,Sialkot
+AG181,Faisal Farooque Manpower Exporte,1204 / LHR,Active,,Lahore
+AG182,Al-Qayyum International,1206 / RWP,Active,,Rawalpindi
+AG183,The Pak Consultant Overseas Manpower,1212 / RWP,Active,,Rawalpindi
+AG184,Khall Recruiting Agency,1213 / MLK,Active,,Malakand
+AG185,Malik Muhammad Azam OEP,1224 / LHR,Active,,Lahore
+AG186,G.S. Manpower International,1227 / RWP,Active,,Rawalpindi
+AG187,Aziz Manpower Services,1229 / RWP,Active,,Rawalpindi
+AG188,Aman Recruiting Agency,1240 / MLK,Active,,Malakand
+AG189,Chitral Recruiting Agency,1242 / MLK,Active,,Malakand
+AG190,Frontier Overseas Recruiting Agency,1248 / MLK,Active,,Malakand
+AG191,Gorsi  Corporation,1255 / SKT,Active,,Sialkot
+AG192,S.T. Francies Enterprises,1258 / KAR,Active,,Karachi
+AG193,Caravan International Services,1262 / KAR,Active,,Karachi
+AG194,Al-Marjan Enterprises,1263 / RWP,Active,,Rawalpindi
+AG195,Tayyab Enterprises,1265 / KAR,Active,,Karachi
+AG196,Buner Recruiting Agency,1270 / RWP,Active,,Rawalpindi
+AG197,Unique Manpower Services,1271 / RWP,Active,,Rawalpindi
+AG198,Tania & Brothers,1272 / GRT,Active,,Gujrat
+AG199,Kay Kay and Kay Associates,1273 / LHR,Active,,Lahore
+AG200,Shawakhoon,1274 / PWR,Active,,
+AG201,Yousuf Zai Entt,1277 / KAR,Active,,Karachi
+AG202,Al-Hafiz Enterprises,1279 / KAR,Active,,Karachi
+AG203,Bakht Rawan Recruiting Agency,1281 / MLK,Active,,Malakand
+AG204,Zia Recruiting Agency,1285 / MLK,Active,,Malakand
+AG205,Ahbab Corporation,1286 / MLK,Active,,Malakand
+AG206,Gulzar International,1294 / KAR,Active,,Karachi
+AG207,The Guides,1296 / RWP,Active,,Rawalpindi
+AG208,Travel Guide International,1297 / LHR,Active,,Lahore
+AG209,American International,1300 / RWP,Active,,Rawalpindi
+AG210,Yaqoob Sons Overseas Manpower Consultants,1304 / RWP,Active,,Rawalpindi
+AG211,Shabnum Recruiting Agency,1306 / MLK,Active,,Malakand
+AG212,Fahad Munir Ent.,1307 / SKT,Active,,Sialkot
+AG213,S.I. Employment Agency,1310 / SKT,Active,,Sialkot
+AG214,Ittehad Recruiting Agency,1311 / MLK,Active,,Malakand
+AG215,Al-Shafa Corporation,1313 / KAR,Active,,Karachi
+AG216,Kohistan Recruiting Agency,1319 / MLK,Active,,Malakand
+AG217,Al-Faqir Recruiting Agency,1321 / MLK,Active,,Malakand
+AG218,Namal International,1323 / MTN,Active,,
+AG219,Bashir Ibrahim Enterprises,1328 / KAR,Active,,Karachi
+AG220,Shardah Overseas Employment Services,1329 / RWP,Active,,Rawalpindi
+AG221,Dera International,1333 / DGK,Active,,D.G. Khan
+AG222,Dogar Trading Corporation,1338 / SKT,Active,,Sialkot
+AG223,Pak Saudi Enterprises,1339 / RWP,Active,,Rawalpindi
+AG224,Manpower Project Services,1341 / LHR,Active,,Lahore
+AG225,Asian Star,1344 / RWP,Active,,Rawalpindi
+AG226,Ayyaz International,1346 / LHR,Active,,Lahore
+AG227,Shinwari House Recruiting Agency,1348 / MLK,Active,,Malakand
+AG228,Al-Swan Enterprises,1352 / SKT,Active,,Sialkot
+AG229,Shah Corporation,1353 / MLK,Active,,Malakand
+AG230,Taj Mahal Recruiting Agency,1359 / ABT,Active,,Abbottabad
+AG231,All World Recruiting Overseas Employment Agency,1361 / LHR,Active,,Lahore
+AG232,Tanawal Overseas Employment Corporation,1365 / RWP,Active,,Rawalpindi
+AG233,Nashat Recruiting Agency,1369 / MLK,Active,,Malakand
+AG234,Al-Moula International Overseas Employment Promoter,1373 / GRT,Active,,Gujrat
+AG235,Khawar Enterprises,1377 / RWP,Active,,Rawalpindi
+AG236,Al-Hunain International,1379 / RWP,Active,,Rawalpindi
+AG237,Maidan International,1383 / MLK,Active,,Malakand
+AG238,Tajjak Corporation Overseas Employment Promoter,1389 / MLK,Active,,Malakand
+AG239,Al Rehmat Manpower Bureau,1391 / SKT,Active,,Sialkot
+AG240,Mumtaz Mukhtab Al-Amal,1392 / KAR,Active,,Karachi
+AG241,Namrah International,1393 / MTN,Active,,
+AG242,Overseas Promotion Agencies,1396 / RWP,Active,,Rawalpindi
+AG243,Ghaffar International,1403 / MTN,Active,,
+AG244,Trust Enterprises,1405 / KAR,Active,,Karachi
+AG245,Pameer Recruiting Agency,1412 / MLK,Active,,Malakand
+AG246,Zahara Saudi Enterprises Overseas Employment Promoter,1415 / MLK,Active,,Malakand
+AG247,Al-Farid Traders,1418 / DGK,Active,,D.G. Khan
+AG248,Miran Shah International Recruiting Agency,1421 / RWP,Active,,Rawalpindi
+AG249,Fatimi International,1423 / RWP,Active,,Rawalpindi
+AG250,Lodhi Sons International,1424 / RWP,Active,,Rawalpindi
+AG251,Alam Travels,1425 / RWP,Active,,Rawalpindi
+AG252,Marwan Corporation Overseas Employment Promoter,1427 / MLK,Active,,Malakand
+AG253,Khurram Shahzad Company,1430 / MTN,Active,,
+AG254,Jabbar Brothers,1436 / MLK,Active,,Malakand
+AG255,Shafqat Enterprises,1438 / SKT,Active,,Sialkot
+AG256,Aroma Associates,1442 / KAR,Active,,Karachi
+AG257,Salma Enterprises,1445 / KAR,Active,,Karachi
+AG258,Tauseef Associates,1451 / RWP,Active,,Rawalpindi
+AG259,Al-Muzamil Recruiting Agency,1454 / LHR,Active,,Lahore
+AG260,Sardar Sohail Javed,1460 / RWP,Active,,Rawalpindi
+AG261,Citizen Associates,1461 / SKT,Active,,Sialkot
+AG262,M. Wali Recruiting Agency,1463 / RWP,Active,,Rawalpindi
+AG263,Utman Khel Recruiting Agency,1464 / MLK,Active,,Malakand
+AG264,Zeerak Enterprises,1469 / RWP,Active,,Rawalpindi
+AG265,Al-Madina Co,1472 / KAR,Active,,Karachi
+AG266,N.A. Enterprises,1478 / RWP,Active,,Rawalpindi
+AG267,Al-Sani International,1479 / RWP,Active,,Rawalpindi
+AG268,Phalia International,1482 / RWP,Active,,Rawalpindi
+AG269,Neway Overseas Manpower Consultant,1484 / RWP,Active,,Rawalpindi
+AG270,Almas Traders & Contractors,1487 / RWP,Active,,Rawalpindi
+AG271,Saroba Corporation,1492 / RWP,Active,,Rawalpindi
+AG272,Shahban International,1495 / RWP,Active,,Rawalpindi
+AG273,Dhanyal Overseas Employment Promoter,1499 / RWP,Active,,Rawalpindi
+AG274,Pakeeza Corporation,1501 / MTN,Active,,
+AG275,Rahnuma Enterprises,1502 / RWP,Active,,Rawalpindi
+AG276,Great View,1505 / RWP,Active,,Rawalpindi
+AG277,Charat Recruiting Agency,1513 / MLK,Active,,Malakand
+AG278,Peshawar Overseas Traders,1519 / PWR,Active,,
+AG279,Attash International,1524 / RWP,Active,,Rawalpindi
+AG280,Al-Hijaz Overseas Manpower Supply,1527 / RWP,Active,,Rawalpindi
+AG281,Al- Fazil Enterprises,1534 / SKT,Active,,Sialkot
+AG282,Al-Kurdee Traders,1536 / KAR,Active,,Karachi
+AG283,Holiday International,1538 / MLK,Active,,Malakand
+AG284,Razmak Recruiting Agency,1545 / RWP,Active,,Rawalpindi
+AG285,Shah Jahan International,1549 / MTN,Active,,
+AG286,Qabail Recruiting Agency,1550 / RWP,Active,,Rawalpindi
+AG287,Al Asmat Enteterprises,1555 / SKT,Active,,Sialkot
+AG288,Shahdara International Services,1557 / LHR,Active,,Lahore
+AG289,Al-Arooj International,1559 / LHR,Active,,Lahore
+AG290,Hadia Recruiting Agency,1564 / MLK,Active,,Malakand
+AG291,Avari International,1572 / RWP,Active,,Rawalpindi
+AG292,Melhi International,1573 / GRT,Active,,Gujrat
+AG293,Wali International OEP,1578 / LHR,Active,,Lahore
+AG294,Tehseen Enterprises,1579 / GRT,Active,,Gujrat
+AG295,Mohra Sharif Recruiting Agency,1581 / GRT,Active,,Gujrat
+AG296,Supra Enterprises,1582 / RWP,Active,,Rawalpindi
+AG297,Arusa International,1585 / SKT,Active,,Sialkot
+AG298,Qazi Enterprises,1587 / RWP,Active,,Rawalpindi
+AG299,Mong Star Overseas Employment Promoters,1589 / GRT,Active,,Gujrat
+AG300,Zarqa International Recruiting Agency,1591 / RWP,Active,,Rawalpindi
+AG301,Sahiwal Enterprises,1593 / MTN,Active,,
+AG302,Noshi International Recruiting Agency,1594 / MTN,Active,,
+AG303,Trueman Enterprises,1597 / LHR,Active,,Lahore
+AG304,Active Recruiting Agency,1598 / RWP,Active,,Rawalpindi
+AG305,Gizan International,1603 / RWP,Active,,Rawalpindi
+AG306,Tila Recruiting Agency,1604 / PWR,Active,,
+AG307,Al-Baz Corporation,1605 / DGK,Active,,D.G. Khan
+AG308,Kanan Overseas,1606 / RWP,Active,,Rawalpindi
+AG309,Hamid Enterprises,1608 / PWR,Active,,
+AG310,Jamu & Kashmir Ent.,1610 / RWP,Active,,Rawalpindi
+AG311,Umm-ul-Qura Recruiting Agency,1614 / RWP,Active,,Rawalpindi
+AG312,Lawa Employment Consultants,1615 / KAR,Active,,Karachi
+AG313,Shama International,1622 / KAR,Active,,Karachi
+AG314,Namseer Recruiting Agency,1624 / MLK,Active,,Malakand
+AG315,Maharaja Corporation,1625 / RWP,Active,,Rawalpindi
+AG316,Komal Recruiting & Travel Services,1628 / SKT,Active,,Sialkot
+AG317,Qandhar International,1631 / MLK,Active,,Malakand
+AG318,Jhang International Recruiting Agency,1632 / RWP,Active,,Rawalpindi
+AG319,Al-Qalam Enterprises,1634 / PWR,Active,,
+AG320,Jawad Safdar Enterprises,1638 / SKT,Active,,Sialkot
+AG321,Modern Recruiting Services,1641 / PWR,Active,,
+AG322,Platinum Manpower Services,1649 / RWP,Active,,Rawalpindi
+AG323,Telecom Foundation Overseas Employment Division,1653 / RWP,Active,,Rawalpindi
+AG324,Rajana Enterprises,1658 / KAR,Active,,Karachi
+AG325,Swat Enterprises,1661 / MLK,Active,,Malakand
+AG326,Lasifa International,1668 / RWP,Active,,Rawalpindi
+AG327,Mero Khel International,1669 / KAR,Active,,Karachi
+AG328,Al Haider International,1670 / GRT,Active,,Gujrat
+AG329,Omega Enterprises,1672 / SKT,Active,,Sialkot
+AG330,Kiran Recruiting Agency,1673 / PWR,Active,,
+AG331,Miryan International,1675 / RWP,Active,,Rawalpindi
+AG332,Raj Wali Enterprises,1678 / RWP,Active,,Rawalpindi
+AG333,Prestige Enterprises,1679 / RWP,Active,,Rawalpindi
+AG334,Aaqab Recruiting Agency,1686 / MLK,Active,,Malakand
+AG335,Mint International,1689 / RWP,Active,,Rawalpindi
+AG336,Jamil International,1694 / RWP,Active,,Rawalpindi
+AG337,Fakhre Alam Recruiting Agency,1696 / MLK,Active,,Malakand
+AG338,Al-Habib International Recruiting Agency,1697 / MTN,Active,,
+AG339,Barthana International,1700 / MLK,Active,,Malakand
+AG340,The Little Star Recruiting Agency,1701 / PWR,Active,,
+AG341,Ghazali International,1705 / DGK,Active,,D.G. Khan
+AG342,Badaber Overseas Corporation,1708 / PWR,Active,,
+AG343,Sohawa International,1709 / GRT,Active,,Gujrat
+AG344,Rahim Yar Khan Traders,1711 / DGK,Active,,D.G. Khan
+AG345,Chairman International,1713 / SKT,Active,,Sialkot
+AG346,Shinawar Manpower Consultant Agency,1714 / SKT,Active,,Sialkot
+AG347,Al-Musaddaq Recruiting Agency,1718 / PWR,Active,,
+AG348,Machhiana Overseas Employment Promoters,1720 / GRT,Active,,Gujrat
+AG349,Ahtizaz Enterprises,1721 / RWP,Active,,Rawalpindi
+AG350,Subla Mushtaq Manpower,1729 / SKT,Active,,Sialkot
+AG351,Al Madakh Recruiting Agency,1739 / RWP,Active,,Rawalpindi
+AG352,Al-Nabil Enterprises,1740 / SKT,Active,,Sialkot
+AG353,Pak Bolan International,1745 / KAR,Active,,Karachi
+AG354,Al-Baraka Enterprises,1751 / RWP,Active,,Rawalpindi
+AG355,Lala Iqbal,1755 / KAR,Active,,Karachi
+AG356,Al-Adrees & Brothers Recruiting Agency,1756 / PWR,Active,,
+AG357,Milloo Enterprises,1757 / LHR,Active,,Lahore
+AG358,Okara Enterprises,1759 / LHR,Active,,Lahore
+AG359,Altaf Recruiting Agency,1760 / MLK,Active,,Malakand
+AG360,Kannah Manpower Recruiting Agency,1768 / RWP,Active,,Rawalpindi
+AG361,Shakeel Ishtiaq International,1770 / RWP,Active,,Rawalpindi
+AG362,Shirkate Salim,1772 / PWR,Active,,
+AG363,Ismail And Sons,1774 / KAR,Active,,Karachi
+AG364,Tilawat Corporation,1782 / MLK,Active,,Malakand
+AG365,Aasta International,1784 / RWP,Active,,Rawalpindi
+AG366,Nizami Intternational Trading Corporation,1789 / MTN,Active,,
+AG367,Shopayyan Enterprises Overseas Employment Promoters,1790 / RWP,Active,,Rawalpindi
+AG368,Al-Minhas International,1791 / RWP,Active,,Rawalpindi
+AG369,Asian Equators Co-operation Travel & Tours,1792 / LHR,Active,,Lahore
+AG370,S.A. International,1796 / KAR,Active,,Karachi
+AG371,Sajawal International,1798 / MTN,Active,,
+AG372,Saima International,1799 / MTN,Active,,
+AG373,Akbar Recruiting Agency,1801 / MLK,Active,,Malakand
+AG374,Sona Recruiting Agency,1802 / PWR,Active,,
+AG375,Niazi International,1804 / KAR,Active,,Karachi
+AG376,Greenco,1806 / RWP,Active,,Rawalpindi
+AG377,Air View Associates,1808 / KAR,Active,,Karachi
+AG378,Wular International,1810 / RWP,Active,,Rawalpindi
+AG379,Hadi Swati Enterprises,1813 / KAR,Active,,Karachi
+AG380,Imdad Overseas Corporation,1815 / PWR,Active,,
+AG381,Meeta International,1817 / MTN,Active,,
+AG382,Saidu Sharif Enterprises Recruiting Agency,1819 / MLK,Active,,Malakand
+AG383,Raisa Travel Service,1820 / LHR,Active,,Lahore
+AG384,Punchkora Recruiting Agency,1821 / MLK,Active,,Malakand
+AG385,Al-Mudassar International,1823 / MTN,Active,,
+AG386,Safar Overseas Employment Promoter,1826 / PWR,Active,,
+AG387,Abu-Al Asma Traders,1828 / RWP,Active,,Rawalpindi
+AG388,Muscat Overseas Employment Agency,1830 / LHR,Active,,Lahore
+AG389,Yahya International Recruiting Agency,1832 / MLK,Active,,Malakand
+AG390,Fantastic Enterprises,1835 / MLK,Active,,Malakand
+AG391,Multan International,1836 / MTN,Active,,
+AG392,Al-Noshahi Enterprises,1838 / RWP,Active,,Rawalpindi
+AG393,Asim Usman International,1842 / DGK,Active,,D.G. Khan
+AG394,Itbar Shah Recruiting Agency,1843 / PWR,Active,,
+AG395,Kalia Overseas Services,1844 / KAR,Active,,Karachi
+AG396,Imam Trading & Contracting,1845 / RWP,Active,,Rawalpindi
+AG397,Roghani Corporation Recruiting Agency,1851 / MLK,Active,,Malakand
+AG398,Al-Qureshi International Trading Corp,1853 / LHR,Active,,Lahore
+AG399,Abu Sattar Recruiting Agency,1854 / MLK,Active,,Malakand
+AG400,Bio Force Employment,1857 / RWP,Active,,Rawalpindi
+AG401,Sajjan International Services,1858 / SKT,Active,,Sialkot
+AG402,Alam International,1862 / KAR,Active,,Karachi
+AG403,Al-Kasib Overseas Employment Promoter,1863 / LHR,Active,,Lahore
+AG404,Musa Khel Recruitment Employment Promoters,1864 / PWR,Active,,
+AG405,Techno Power Export Coordinator,1866 / KAR,Active,,Karachi
+AG406,Shamal International Recruiting Agency,1867 / MLK,Active,,Malakand
+AG407,Pak National Manpower Bureau,1868 / RWP,Active,,Rawalpindi
+AG408,Al- Faraz International,1874 / LHR,Active,,Lahore
+AG409,Dar Recruiting Agency,1875 / SKT,Active,,Sialkot
+AG410,Al-Mehdi International,1876 / RWP,Active,,Rawalpindi
+AG411,Khanpur Overseas Employment,1877 / MTN,Active,,
+AG412,Great Pakistan Manpower Bureau,1881 / RWP,Active,,Rawalpindi
+AG413,Ayesha Zanib International,1883 / MTN,Active,,
+AG414,Al- Zaharani International,1885 / SKT,Active,,Sialkot
+AG415,Al-Ahsan Recruiting Agency,1888 / MLK,Active,,Malakand
+AG416,Mehtech Services International,1891 / KAR,Active,,Karachi
+AG417,Abdullah International,1892 / LHR,Active,,Lahore
+AG418,Karimi Contracting,1896 / KAR,Active,,Karachi
+AG419,Hanif Traders,1898 / KAR,Active,,Karachi
+AG420,Islam Brothers Recruiting Agency,1900 / RWP,Active,,Rawalpindi
+AG421,Saddozai Overseas Employment Services,1901 / RWP,Active,,Rawalpindi
+AG422,Al-Tauqeer International,1902 / RWP,Active,,Rawalpindi
+AG423,Talash Recruiting Agency,1903 / MLK,Active,,Malakand
+AG424,Doaba Overseas Traders,1906 / PWR,Active,,
+AG425,Dollar Enterprises,1907 / RWP,Active,,Rawalpindi
+AG426,Al-Wafa International,1913 / MTN,Active,,
+AG427,Gohar Iqbal International Overseas Employment Promoter,1915 / LHR,Active,,Lahore
+AG428,Overseas Employment Bureau,1918 / RWP,Active,,Rawalpindi
+AG429,First Al-Sultania Group,1920 / GRT,Active,,Gujrat
+AG430,A.M. International,1921 / LHR,Active,,Lahore
+AG431,Self Reliance OEP,1926 / RWP,Active,,Rawalpindi
+AG432,New Khattak Ent,1927 / PWR,Active,,
+AG433,Kanwar Recruiting Agency,1928 / MTN,Active,,
+AG434,Sana International,1932 / RWP,Active,,Rawalpindi
+AG435,Recruitmen International,1937 / KAR,Active,,Karachi
+AG436,Speen Mohmand Overseas Corporation,1938 / PWR,Active,,
+AG437,Al-Saudia Overseas,1941 / PWR,Active,,
+AG438,Zam Zam Manpower,1942 / MLK,Active,,Malakand
+AG439,Ch. Muhammad Younis International,1944 / RWP,Active,,Rawalpindi
+AG440,Riasat International,1947 / RWP,Active,,Rawalpindi
+AG441,Al-Wadood Traders,1948 / MLK,Active,,Malakand
+AG442,Al-Azhar Recruiting Agency,1949 / MLK,Active,,Malakand
+AG443,Al-Tamani General Services,1950 / RWP,Active,,Rawalpindi
+AG444,Al Musaid Enterprises,1951 / SKT,Active,,Sialkot
+AG445,Mufti Enterprises Overseas Employment Promoters,1954 / RWP,Active,,Rawalpindi
+AG446,Source Net International,1956 / LHR,Active,,Lahore
+AG447,Bacha Khan Recruiting Agency,1957 / MLK,Active,,Malakand
+AG448,Timergara Corporation,1962 / MLK,Active,,Malakand
+AG449,Urgent Recruiting Agency,1963 / MLK,Active,,Malakand
+AG450,Laiba Corporation,1965 / MLK,Active,,Malakand
+AG451,Prominent Manpower Services,1968 / KAR,Active,,Karachi
+AG452,Kalam International,1969 / MLK,Active,,Malakand
+AG453,Saher International,1970 / MTN,Active,,
+AG454,Pak Set Trading Co,1971 / SKT,Active,,Sialkot
+AG455,Hamza Usman Travels,1973 / DGK,Active,,D.G. Khan
+AG456,Euro International,1975 / KAR,Active,,Karachi
+AG457,Zarar International Agency,1976 / MLK,Active,,Malakand
+AG458,Firdous Travels,1979 / DGK,Active,,D.G. Khan
+AG459,Raza Khan Corporation,1980 / MLK,Active,,Malakand
+AG460,Al-Hamza Corporation,1983 / MLK,Active,,Malakand
+AG461,Pak Channel Overseas Employment Promoters,1986 / RWP,Active,,Rawalpindi
+AG462,Al Akram Enterprises,1987 / SKT,Active,,Sialkot
+AG463,Iqrar Recruiting Agency,1988 / MLK,Active,,Malakand
+AG464,Satti Overseas Employment Services,1989 / RWP,Active,,Rawalpindi
+AG465,Shams Enterprises Recruiting Agency,1990 / MLK,Active,,Malakand
+AG466,Taqwa International Overseas Employment,1992 / LHR,Active,,Lahore
+AG467,Job Track Manpower Bureau,1993 / RWP,Active,,Rawalpindi
+AG468,Al-Qasim Recruitment Bureau,1996 / RWP,Active,,Rawalpindi
+AG469,Saifoor and Nazeef Recruiting Agency,1997 / MLK,Active,,Malakand
+AG470,Jam Pur International,1998 / DGK,Active,,D.G. Khan
+AG471,Sun Consulting Pvt Ltd,2001 / KAR,Active,,Karachi
+AG472,Time Travel Services,2002 / DGK,Active,,D.G. Khan
+AG473,New City Recruiting Bureau,2003 / SKT,Active,,Sialkot
+AG474,Al-Ghafoor International,2004 / MTN,Active,,
+AG475,Abbas Recruiting Agency,2006 / MLK,Active,,Malakand
+AG476,World Business Corporation,2009 / PWR,Active,,
+AG477,United Enterprises Co.,2013 / RWP,Active,,Rawalpindi
+AG478,Kainaat Overseas Employment Promoter,2026 / RWP,Active,,Rawalpindi
+AG479,Khalool International,2028 / DGK,Active,,D.G. Khan
+AG480,Munawara International,2033 / DGK,Active,,D.G. Khan
+AG481,Sunehra Enterprises,2034 / PWR,Active,,
+AG482,Wahab Corporation,2035 / MLK,Active,,Malakand
+AG483,Sarmad International,2036 / MTN,Active,,
+AG484,Indus Corporation,2039 / LHR,Active,,Lahore
+AG485,Roman Corporation,2040 / MLK,Active,,Malakand
+AG486,Sada Bahar International,2043 / MLK,Active,,Malakand
+AG487,Baqir International,2044 / DGK,Active,,D.G. Khan
+AG488,Two Star International Recruiting Agency,2048 / MLK,Active,,Malakand
+AG489,Ashah Khel Recruiting Agency,2049 / MLK,Active,,Malakand
+AG490,Al-Qaseem Overseas,2050 / PWR,Active,,
+AG491,Lowari Recruiting Agency,2052 / MLK,Active,,Malakand
+AG492,Julyal Corporation,2053 / RWP,Active,,Rawalpindi
+AG493,Bloom International,2055 / RWP,Active,,Rawalpindi
+AG494,Ihtisham Overseas Employment Promoter,2056 / RWP,Active,,Rawalpindi
+AG495,Sair-ul-Alam Recruiting Agency,2057 / MTN,Active,,
+AG496,Sharjeel Enterprises,2058 / KAR,Active,,Karachi
+AG497,M.N.A. International,2059 / RWP,Active,,Rawalpindi
+AG498,Khizria Recruiting Agency,2063 / RWP,Active,,Rawalpindi
+AG499,Sona Khan Buzdar Baloch Enterprises,2065 / DGK,Active,,D.G. Khan
+AG500,Phatikhel Overseas,2066 / PWR,Active,,
+AG501,Al-Insaf International,2067 / RWP,Active,,Rawalpindi
+AG502,Mir Ali Overseas Agency,2068 / RWP,Active,,Rawalpindi
+AG503,Seemab Aamina Emloyment Bureau,2069 / LHR,Active,,Lahore
+AG504,Chandni Overseas Employment Agency,2070 / RWP,Active,,Rawalpindi
+AG505,Al-Ahmed Naz Corporation,2071 / MLK,Active,,Malakand
+AG506,Balana Overseas,2072 / PWR,Active,,
+AG507,Shoeeb Habib Brothers Recruiting Agency,2073 / RWP,Active,,Rawalpindi
+AG508,Salaal International,2076 / DGK,Active,,D.G. Khan
+AG509,Al-Kharj Enterprises,2078 / PWR,Active,,
+AG510,Al-Muqaddar Recruiting Agency,2080 / RWP,Active,,Rawalpindi
+AG511,Mandi Manpower Services,2083 / GRT,Active,,Gujrat
+AG512,Mirza International,2087 / SKT,Active,,Sialkot
+AG513,Mardan International Agency,2088 / PWR,Active,,
+AG514,Al-Shams Recruiting Agency,2089 / RWP,Active,,Rawalpindi
+AG515,Haleem Shah Enterprises Overseas,2091 / PWR,Active,,
+AG516,Al- Yamama Recruiting Agency,2092 / MLK,Active,,Malakand
+AG517,Qurni Enterprises,2093 / RWP,Active,,Rawalpindi
+AG518,Ghufran Enterprises,2095 / RWP,Active,,Rawalpindi
+AG519,Owais Osama Enterprises,2096 / KAR,Active,,Karachi
+AG520,Kumrat Enterprises,2097 / MLK,Active,,Malakand
+AG521,Sahara Overseas Employment Corporation,2099 / ABT,Active,,Abbottabad
+AG522,Sumaira International,2102 / KAR,Active,,Karachi
+AG523,Najeeb Recruiting Agency,2104 / MLK,Active,,Malakand
+AG524,Cosmos Manpower Services,2106 / LHR,Active,,Lahore
+AG525,Pakistan Manpower Bureau,2107 / RWP,Active,,Rawalpindi
+AG526,Al-Tahir Recruiting Agency,2108 / PWR,Active,,
+AG527,Islamabad Overseas Recruiting Agency,2109 / RWP,Active,,Rawalpindi
+AG528,Huzaifa Enterprises,2110 / KAR,Active,,Karachi
+AG529,Umair International,2113 / MLK,Active,,Malakand
+AG530,Al-Asif Recruiting Agency,2116 / PWR,Active,,
+AG531,Jabal-e-Noor Enterprises,2117 / RWP,Active,,Rawalpindi
+AG532,Shawal Overseas Employment Promoters,2120 / RWP,Active,,Rawalpindi
+AG533,Farah International,2121 / RWP,Active,,Rawalpindi
+AG534,Mir Enterprises,2122 / PWR,Active,,
+AG535,Sabeena Enterprises,2124 / PWR,Active,,
+AG536,Al-Qaim International,2127 / RWP,Active,,Rawalpindi
+AG537,Mashwani Overseas Corporation,2128 / RWP,Active,,Rawalpindi
+AG538,Al Haseef Enterprises,2131 / SKT,Active,,Sialkot
+AG539,Majmoah Saadullah,2133 / DGK,Active,,D.G. Khan
+AG540,Shani International,2134 / MTN,Active,,
+AG541,Hawazan Recruiting Agency,2135 / MLK,Active,,Malakand
+AG542,Elum Recruiting Agency,2136 / MLK,Active,,Malakand
+AG543,Al-Yasir International,2137 / RWP,Active,,Rawalpindi
+AG544,Bahadur Recruiting Agency,2138 / MLK,Active,,Malakand
+AG545,Pak Cresco Enterprises Pvt Ltd,2142 / LHR,Active,,Lahore
+AG546,Falak Seer International Recruiting Agency,2144 / MLK,Active,,Malakand
+AG547,Advance Recruiting Overseas Employment Promoters,2145 / PWR,Active,,
+AG548,Nasco International Recruiting Agency,2146 / MLK,Active,,Malakand
+AG549,Akhoonkhel International Recruiting Agency,2149 / MLK,Active,,Malakand
+AG550,Luna International,2150 / LHR,Active,,Lahore
+AG551,Taaba Intrenational Recruiting Agency,2153 / RWP,Active,,Rawalpindi
+AG552,Al Marakab International,2158 / SKT,Active,,Sialkot
+AG553,Dahlawi Manpower Recruiting,2161 / KAR,Active,,Karachi
+AG554,Janyal Recruiting Agency,2165 / RWP,Active,,Rawalpindi
+AG555,Malakand Recruiting Agency,2166 / RWP,Active,,Rawalpindi
+AG556,Hammad Recruiting Agency,2167 / MLK,Active,,Malakand
+AG557,Chakdara International Agency,2168 / MLK,Active,,Malakand
+AG558,Hairo Khan Buzdar International,2169 / DGK,Active,,D.G. Khan
+AG559,Siyar Corporation,2170 / MLK,Active,,Malakand
+AG560,Saif International Agency,2172 / RWP,Active,,Rawalpindi
+AG561,Ithmanzai Recruiting Agency,2174 / RWP,Active,,Rawalpindi
+AG562,Arabian Gulf International,2175 / RWP,Active,,Rawalpindi
+AG563,Niaz Recruiting Agency,2178 / RWP,Active,,Rawalpindi
+AG564,Gold Street Recruiting Agency,2180 / RWP,Active,,Rawalpindi
+AG565,Shalman Traders,2181 / MLK,Active,,Malakand
+AG566,Eagle Syndicate,2186 / RWP,Active,,Rawalpindi
+AG567,Baloch Brothers,2189 / KAR,Active,,Karachi
+AG568,Saareb International,2191 / DGK,Active,,D.G. Khan
+AG569,Gillget Overseas Enterprises,2192 / PWR,Active,,
+AG570,Jabballian Overseas Recruiting Agency,2193 / RWP,Active,,Rawalpindi
+AG571,Akwam International,2194 / RWP,Active,,Rawalpindi
+AG572,Neuro International,2195 / KAR,Active,,Karachi
+AG573,The Sialkot Traders,2196 / SKT,Active,,Sialkot
+AG574,Al Eshah Internatuional,2197 / SKT,Active,,Sialkot
+AG575,Qadir International,2199 / DGK,Active,,D.G. Khan
+AG576,Habib Brothers R/Agy PVT (LTD),2201 / MLK,Active,,Malakand
+AG577,Afnan Recruiting Agency,2202 / MLK,Active,,Malakand
+AG578,Misrial Enterprises,2203 / RWP,Active,,Rawalpindi
+AG579,Qureshi Manpower Bureau,2205 / RWP,Active,,Rawalpindi
+AG580,AL-IMRAN INTERNATIONAL,2206 / MLK,Active,,Malakand
+AG581,Fajar Enterprises,2207 / RWP,Active,,Rawalpindi
+AG582,Shah Zaman Manpower,2208 / RWP,Active,,Rawalpindi
+AG583,Pak. Arsalan Corporation,2210 / ABT,Active,,Abbottabad
+AG584,Al-Nakhil Enterprises,2213 / LHR,Active,,Lahore
+AG585,Warda International,2214 / MLK,Active,,Malakand
+AG586,Mian Enterprises,2215 / MLK,Active,,Malakand
+AG587,Sareer Recruiting Agency,2218 / MLK,Active,,Malakand
+AG588,Al-Fajjar Corporation,2219 / RWP,Active,,Rawalpindi
+AG589,Al-Atique Recruiting Agency,2220 / PWR,Active,,
+AG590,Toba International,2223 / LHR,Active,,Lahore
+AG591,Abu Bakar Bilal Travel International,2224 / MTN,Active,,
+AG592,Nasir Corporation,2227 / GRT,Active,,Gujrat
+AG593,Al-Imran Brothers,2229 / PWR,Active,,
+AG594,Rais Brothers,2234 / KAR,Active,,Karachi
+AG595,Highland International,2235 / RWP,Active,,Rawalpindi
+AG596,Sufyan Recruiting Agency,2237 / RWP,Active,,Rawalpindi
+AG597,Touchi International Recruiting Agency,2238 / RWP,Active,,Rawalpindi
+AG598,Red Rose Traders,2240 / PWR,Active,,
+AG599,Al Asad International,2241 / RWP,Active,,Rawalpindi
+AG600,Shafay International,2243 / KAR,Active,,Karachi
+AG601,Afaq Overseas Promoters,2244 / PWR,Active,,
+AG602,Saadoon Associates,2250 / RWP,Active,,Rawalpindi
+AG603,Al-Bassami Recruiting Agency,2251 / RWP,Active,,Rawalpindi
+AG604,Al-Qaiser Brothers,2253 / KAR,Active,,Karachi
+AG605,Masassa Al Hajri Entt,2254 / SKT,Active,,Sialkot
+AG606,Namir Brothers Recruiting Agency,2256 / MLK,Active,,Malakand
+AG607,Al-Tawab International,2261 / RWP,Active,,Rawalpindi
+AG608,Gul Shahzad Corporation & Manpower Consultants,2263 / RWP,Active,,Rawalpindi
+AG609,M. G. Traders,2264 / RWP,Active,,Rawalpindi
+AG610,Rolla Corporation,2266 / LHR,Active,,Lahore
+AG611,Travel Kashmir Manpower Recruiting Agency,2275 / RWP,Active,,Rawalpindi
+AG612,Brother Associates.,2279 / SKT,Active,,Sialkot
+AG613,Mian Shamas Entt,2281 / SKT,Active,,Sialkot
+AG614,Reliance Overseas Manpower Recruiting Agency,2282 / RWP,Active,,Rawalpindi
+AG615,Azi Khel Recruiting Agency,2283 / MLK,Active,,Malakand
+AG616,R.S. International,2292 / KAR,Active,,Karachi
+AG617,HRS Overseas Employment Services,2296 / RWP,Active,,Rawalpindi
+AG618,Al-Nasr Enterprises,2298 / RWP,Active,,Rawalpindi
+AG619,Al Rabaz International,2300 / LHR,Active,,Lahore
+AG620,A.R. Recruiting Agency,2303 / SKT,Active,,Sialkot
+AG621,Express Overseas Employment Promoters,2304 / RWP,Active,,Rawalpindi
+AG622,H.A. International,2305 / MLK,Active,,Malakand
+AG623,Fowzan Traders,2309 / SKT,Active,,Sialkot
+AG624,Barkha International (Pvt) Ltd.,2312 / RWP,Active,,Rawalpindi
+AG625,Al Khaliq Enterprises,2314 / SKT,Active,,Sialkot
+AG626,Zanib Recruiting Agency,2315 / RWP,Active,,Rawalpindi
+AG627,S.H.Q Enterprises,2316 / SKT,Active,,Sialkot
+AG628,New Geo Pak Overseas Employment Promoters,2317 / MTN,Active,,
+AG629,Parwaz Recruiting Agency,2325 / PWR,Active,,
+AG630,Sabeel Recruiting Agency,2326 / MLK,Active,,Malakand
+AG631,Max International,2328 / RWP,Active,,Rawalpindi
+AG632,Arbaz Enterprises,2330 / KAR,Active,,Karachi
+AG633,New Al-Madina Overseas Employment,2331 / PWR,Active,,
+AG634,Travel Lines Manpower,2336 / RWP,Active,,Rawalpindi
+AG635,Arzoo Travels,2338 / RWP,Active,,Rawalpindi
+AG636,Tahaa Enterprises,2339 / SKT,Active,,Sialkot
+AG637,Al Mateen Enterprises,2340 / SKT,Active,,Sialkot
+AG638,Safari International,2342 / MTN,Active,,
+AG639,Raja Majeed International,2343 / RWP,Active,,Rawalpindi
+AG640,Al-Hijrah International,2345 / RWP,Active,,Rawalpindi
+AG641,Industrial Kinetics Engineering Services,2346 / KAR,Active,,Karachi
+AG642,Bajwa Enterprises,2348 / SKT,Active,,Sialkot
+AG643,Danwa Traders Recruiting Agency,2351 / MLK,Active,,Malakand
+AG644,Gujar Khan Express,2358 / RWP,Active,,Rawalpindi
+AG645,Grindlays World Wide Services,2362 / RWP,Active,,Rawalpindi
+AG646,Takbeer International,2363 / MTN,Active,,
+AG647,Al-Dunia Recruiting Agency,2364 / MLK,Active,,Malakand
+AG648,Fortune Synergies (PVT) Ltd,2365 / KAR,Active,,Karachi
+AG649,Tribal Overseas Employment Promoters,2367 / RWP,Active,,Rawalpindi
+AG650,Daulat Raza Khan Corp.,2368 / MLK,Active,,Malakand
+AG651,Kanju Overseas Corporation,2369 / MLK,Active,,Malakand
+AG652,Adamjee Manpower Services,2370 / LHR,Active,,Lahore
+AG653,Elegant Manpower Services,2372 / MLK,Active,,Malakand
+AG654,Karachi International Traders,2373 / KAR,Active,,Karachi
+AG655,Banglani Enterprises,2374 / KAR,Active,,Karachi
+AG656,M.Butt Traders,2375 / KAR,Active,,Karachi
+AG657,Raabi Enterprises,2376 / RWP,Active,,Rawalpindi
+AG658,Rimshah Travel Tourism and Human Resource Consultant,2378 / RWP,Active,,Rawalpindi
+AG659,Duaa-e-Kainat,2379 / LHR,Active,,Lahore
+AG660,Mahail Overseas Employment Promoters,2380 / PWR,Active,,
+AG661,Ali Salman International,2381 / MTN,Active,,
+AG662,Al-Esar Travels,2383 / DGK,Active,,D.G. Khan
+AG663,Tashkeel International,2386 / RWP,Active,,Rawalpindi
+AG664,Al Qavi Corporation,2388 / RWP,Active,,Rawalpindi
+AG665,Gulf Overseas Technical Services,2390 / RWP,Active,,Rawalpindi
+AG666,Zilkifal Enterprises,2392 / RWP,Active,,Rawalpindi
+AG667,Yadgar Recruiting Agency,2394 / MLK,Active,,Malakand
+AG668,Sarwet Anwar Enterprises,2395 / LHR,Active,,Lahore
+AG669,Leepa Manpower,2396 / RWP,Active,,Rawalpindi
+AG670,Kallar Enterprises,2397 / RWP,Active,,Rawalpindi
+AG671,Jalwal Enterprises,2399 / RWP,Active,,Rawalpindi
+AG672,Happy Home World wide Manpower Exporters,2401 / LHR,Active,,Lahore
+AG673,Gujranwala Employment Bureau,2403 / SKT,Active,,Sialkot
+AG674,Sambat International Recruiting Agency,2405 / MLK,Active,,Malakand
+AG675,Chand Tara Recruiting Overseas Employment Promoter,2407 / PWR,Active,,
+AG676,Khan Saray International Recruiting Agency,2408 / MLK,Active,,Malakand
+AG677,Progressive Manpower Services,2409 / RWP,Active,,Rawalpindi
+AG678,Al-Nayyab International,2410 / MLK,Active,,Malakand
+AG679,Al-Mahid Air Travels,2411 / LHR,Active,,Lahore
+AG680,Areeba Enterprises,2412 / LHR,Active,,Lahore
+AG681,Azka International (Pvt) ltd,2413 / LHR,Active,,Lahore
+AG682,Ata International,2414 / RWP,Active,,Rawalpindi
+AG683,Kokab International Recruiting Agency,2415 / RWP,Active,,Rawalpindi
+AG684,Ultra Bright Future,2420 / LHR,Active,,Lahore
+AG685,Dar-ul-Saeed Manpower Bureau,2422 / LHR,Active,,Lahore
+AG686,Amazing Overseas Corporation,2424 / PWR,Active,,
+AG687,Aabshar Recruiting Agency,2426 / RWP,Active,,Rawalpindi
+AG688,C.M.S International,2427 / LHR,Active,,Lahore
+AG689,Mehtab Khan Trading Corporation,2435 / SKT,Active,,Sialkot
+AG690,Abid Air International (Pvt) Ltd,2436 / LHR,Active,,Lahore
+AG691,Al-Hazam International,2441 / RWP,Active,,Rawalpindi
+AG692,Hadeeqa Manpower Express,2442 / SKT,Active,,Sialkot
+AG693,Kamal Zai International Overseas Employment Promoters,2446 / MLK,Active,,Malakand
+AG694,Essential Manpower Consultant,2447 / RWP,Active,,Rawalpindi
+AG695,Marwat Manpower Exporters,2449 / PWR,Active,,
+AG696,Al Jannat Enterprises,2451 / LHR,Active,,Lahore
+AG697,Shahzaib International,2453 / MTN,Active,,
+AG698,Union Manpower Services,2458 / RWP,Active,,Rawalpindi
+AG699,Latif Manpower Services,2463 / LHR,Active,,Lahore
+AG700,Soneri Overseas,2464 / KAR,Active,,Karachi
+AG701,Sana Ullah Nawaz International,2465 / MTN,Active,,
+AG702,Step In International,2466 / RWP,Active,,Rawalpindi
+AG703,Shah Ghazi International,2467 / KAR,Active,,Karachi
+AG704,Super Pak World Travel and Manpower Promotor,2468 / SKT,Active,,Sialkot
+AG705,Ellahi Enterprises,2477 / LHR,Active,,Lahore
+AG706,Shabbir Enterprises,2479 / RWP,Active,,Rawalpindi
+AG707,Vinhar Pvt. Ltd,2480 / LHR,Active,,Lahore
+AG708,Skilled Overseas Employment,2481 / LHR,Active,,Lahore
+AG709,Al Daim International Srvices,2486 / LHR,Active,,Lahore
+AG710,Executive Services Bureau,2488 / KAR,Active,,Karachi
+AG711,Mangwal Enterprises,2490 / RWP,Active,,Rawalpindi
+AG712,Future -4-U Services,2492 / LHR,Active,,Lahore
+AG713,Maymoon Ashfaq Manpower Overseas Employment,2494 / SKT,Active,,Sialkot
+AG714,Linkers Trade International,2495 / KAR,Active,,Karachi
+AG715,The Friends Overseas Services,2498 / RWP,Active,,Rawalpindi
+AG716,Aeyzaz Enterprises,2499 / RWP,Active,,Rawalpindi
+AG717,Al-Salwa National Manpower,2500 / RWP,Active,,Rawalpindi
+AG718,Ghazni International,2504 / LHR,Active,,Lahore
+AG719,Bandala Employment Bureau,2505 / LHR,Active,,Lahore
+AG720,Orwa Manpower Bureau,2506 / DGK,Active,,D.G. Khan
+AG721,National Centre for Recruitment,2507 / LHR,Active,,Lahore
+AG722,Fix Trade International,2509 / KAR,Active,,Karachi
+AG723,Pak Arabian Manpower Services,2511 / RWP,Active,,Rawalpindi
+AG724,Araak Overseas Employment Promoters,2512 / PWR,Active,,
+AG725,Sammar Corporation,2514 / RWP,Active,,Rawalpindi
+AG726,Abdul Ahad & Brothers,2515 / RWP,Active,,Rawalpindi
+AG727,B.M.R. International,2517 / LHR,Active,,Lahore
+AG728,Kash and Kamal promoters,2518 / RWP,Active,,Rawalpindi
+AG729,Al-Fahad Manpower Bureau,2519 / RWP,Active,,Rawalpindi
+AG730,Royal Traders,2520 / RWP,Active,,Rawalpindi
+AG731,M.Y.B International,2526 / KAR,Active,,Karachi
+AG732,Sojhla International,2527 / DGK,Active,,D.G. Khan
+AG733,Al-Waheed Manpower Consultant,2529 / LHR,Active,,Lahore
+AG734,Askari Guards (PVT) Ltd,2531 / RWP,Active,,Rawalpindi
+AG735,Undlus International,2538 / KAR,Active,,Karachi
+AG736,Riverside Enterprises,2541 / LHR,Active,,Lahore
+AG737,Maple International,2543 / RWP,Active,,Rawalpindi
+AG738,Jeddah Manpower Recruiting Agency,2548 / LHR,Active,,Lahore
+AG739,Omer Asghar Manpower Bureau,2549 / LHR,Active,,Lahore
+AG740,Elan International,2550 / LHR,Active,,Lahore
+AG741,New Rajput Manpower,2551 / RWP,Active,,Rawalpindi
+AG742,Khan Overseas Employment Enterprises,2552 / RWP,Active,,Rawalpindi
+AG743,B.F Expert Manpower,2554 / LHR,Active,,Lahore
+AG744,Asfandyar International Recruiting Agency,2555 / MLK,Active,,Malakand
+AG745,Lolaab Enterprises (Pvt) Ltd.,2556 / RWP,Active,,Rawalpindi
+AG746,Aslam Doria Job Center,2557 / KAR,Active,,Karachi
+AG747,Al-Fatiha Manpower Services,2558 / LHR,Active,,Lahore
+AG748,Azad Jammun & Kashmir Enterprises,2559 / RWP,Active,,Rawalpindi
+AG749,Al-Azam Manpower Services,2562 / RWP,Active,,Rawalpindi
+AG750,Right Way Travels & Toures,2563 / LHR,Active,,Lahore
+AG751,Twin Cities International,2566 / RWP,Active,,Rawalpindi
+AG752,Al-Siyaf Manpower Services,2567 / LHR,Active,,Lahore
+AG753,Potential Power International,2569 / KAR,Active,,Karachi
+AG754,Qurtaba Al-Jadeed Manpower,2571 / LHR,Active,,Lahore
+AG755,Shahzad Umar International,2573 / KAR,Active,,Karachi
+AG756,Yaseen International Overseas Employment Promoters,2574 / SKT,Active,,Sialkot
+AG757,Abdullah Trading Corporation,2575 / RWP,Active,,Rawalpindi
+AG758,Endless Overseas Employment Promoters,2577 / RWP,Active,,Rawalpindi
+AG759,New Al-Hadeed Enterprises,2578 / LHR,Active,,Lahore
+AG760,Ammar International,2581 / MLK,Active,,Malakand
+AG761,Kalyam Enterprises,2589 / RWP,Active,,Rawalpindi
+AG762,Lasani Services Bureau,2595 / SKT,Active,,Sialkot
+AG763,Sohail Waqas Manpower Bureau,2597 / MTN,Active,,
+AG764,Pak Future International,2599 / RWP,Active,,Rawalpindi
+AG765,Talagang International,2600 / RWP,Active,,Rawalpindi
+AG766,Royal Technical Manpower Services,2602 / SKT,Active,,Sialkot
+AG767,Front Line Corporation,2604 / LHR,Active,,Lahore
+AG768,Fallah Enterprises,2607 / PWR,Active,,
+AG769,Nathial Corporation,2608 / RWP,Active,,Rawalpindi
+AG770,Al Mansoor Overseas Employment Recruiting Agency,2609 / MLK,Active,,Malakand
+AG771,Asiatic Manpower Services,2616 / RWP,Active,,Rawalpindi
+AG772,Hawk Overseas,2618 / PWR,Active,,
+AG773,New Khyber Enterprises,2619 / RWP,Active,,Rawalpindi
+AG774,Jeewan OEP,2621 / KAR,Active,,Karachi
+AG775,Aaqib Overseas Employment,2622 / RWP,Active,,Rawalpindi
+AG776,M.R Janjua Manpower (Pvt. Ltd.),2624 / RWP,Active,,Rawalpindi
+AG777,Al-Warda Enterprises,2625 / SKT,Active,,Sialkot
+AG778,Younis Rasheed International,2626 / DGK,Active,,D.G. Khan
+AG779,Khayam Manpower Bureau,2630 / RWP,Active,,Rawalpindi
+AG780,Tangi Overseas Employment,2632 / PWR,Active,,
+AG781,Barkat Enterprises,2633 / LHR,Active,,Lahore
+AG782,Ghazi Overseas Employment,2636 / KAR,Active,,Karachi
+AG783,Yumnah Overseas Employment Promoters,2637 / MTN,Active,,
+AG784,North Star Trading,2638 / RWP,Active,,Rawalpindi
+AG785,Sardar Sadiq Enterprises,2639 / RWP,Active,,Rawalpindi
+AG786,Abdul Rehman Naveed International,2640 / MTN,Active,,
+AG787,Nowsherwan International,2641 / RWP,Active,,Rawalpindi
+AG788,Pak Gulf Overseas Employment Services,2643 / RWP,Active,,Rawalpindi
+AG789,Fear God Manpower Supply,2645 / SKT,Active,,Sialkot
+AG790,Madina-Tul-Olia International Bureau,2649 / MTN,Active,,
+AG791,Abdullah Bin Abid Enterprises,2654 / SKT,Active,,Sialkot
+AG792,Ocean Enteprises,2655 / SKT,Active,,Sialkot
+AG793,Peak Star International Overseas Employment Promoter,2656 / SKT,Active,,Sialkot
+AG794,New Gulf Pak Recuriting Agency,2659 / RWP,Active,,Rawalpindi
+AG795,Duaa Manpower Recruiting Agency,2661 / RWP,Active,,Rawalpindi
+AG796,Sunshine Enterprises,2662 / RWP,Active,,Rawalpindi
+AG797,Munir Enterprises,2663 / MLK,Active,,Malakand
+AG798,Anmol Manpower Exporters,2664 / LHR,Active,,Lahore
+AG799,Kannah Kashmir International,2665 / RWP,Active,,Rawalpindi
+AG800,Sky Star International,2667 / MTN,Active,,
+AG801,International Resource Service,2668 / RWP,Active,,Rawalpindi
+AG802,Waris Shah Recruiting Agency,2669 / LHR,Active,,Lahore
+AG803,Mirza Gee Manpower Services,2671 / LHR,Active,,Lahore
+AG804,Razhco International,2676 / MTN,Active,,
+AG805,Aero Cares Manpower,2677 / MLK,Active,,Malakand
+AG806,Jan Muhammad & Brothers,2678 / KAR,Active,,Karachi
+AG807,Pak Shahbaz Entp,2680 / KAR,Active,,Karachi
+AG808,Safeer-e-Watan,2682 / LHR,Active,,Lahore
+AG809,Nazim Enterprises,2687 / MLK,Active,,Malakand
+AG810,Star Line Recruiting Agency,2694 / MLK,Active,,Malakand
+AG811,Al-Kamil Enterprises,2695 / RWP,Active,,Rawalpindi
+AG812,Al-Taqbeer International,2696 / SKT,Active,,Sialkot
+AG813,Said Rasool Recruiting Agency,2699 / PWR,Active,,
+AG814,Abu Murad Enterprises,2700 / RWP,Active,,Rawalpindi
+AG815,Terich Mir Overseas Employment Promoter,2701 / PWR,Active,,
+AG816,World Enterprises,2705 / KAR,Active,,Karachi
+AG817,Mohammad Umar Enterprises Overseas Employment Promoter,2709 / RWP,Active,,Rawalpindi
+AG818,S.A.Z.Universal Link,2710 / KAR,Active,,Karachi
+AG819,Chichi Enterprises,2711 / MLK,Active,,Malakand
+AG820,Al Qais International,2712 / DGK,Active,,D.G. Khan
+AG821,Al-Mansoor Corporation,2714 / RWP,Active,,Rawalpindi
+AG822,Mohsin Faiz Brs,2715 / KAR,Active,,Karachi
+AG823,New Age Recruiting Agency,2716 / PWR,Active,,
+AG824,Al-Saqlain Brothers,2718 / KAR,Active,,Karachi
+AG825,Barani Manpower Consultants,2719 / KAR,Active,,Karachi
+AG826,The Master Manpower Bureau,2720 / RWP,Active,,Rawalpindi
+AG827,Al-Ryaan Overseas Traders,2721 / PWR,Active,,
+AG828,Ibrahim Enterprises,2723 / PWR,Active,,
+AG829,Al-Dahran Overseas Employment Promoter,2724 / GRT,Active,,Gujrat
+AG830,Al-Bakhsh Recruiting Agency,2727 / MTN,Active,,
+AG831,Al-Arfat Manpower Oep,2728 / MTN,Active,,
+AG832,Al-Hamidia Associates Recruiting Agency,2729 / SKT,Active,,Sialkot
+AG833,Palm Travel OEP,2730 / SKT,Active,,Sialkot
+AG834,Faisalabad Manpower Bureau,2732 / LHR,Active,,Lahore
+AG835,Zafco International Manpower,2733 / KAR,Active,,Karachi
+AG836,Red Rose Impact Employment Promoter,2734 / LHR,Active,,Lahore
+AG837,Rapid travel and tourism Pvt Ltd,2735 / LHR,Active,,Lahore
+AG838,Khudam International,2737 / MLK,Active,,Malakand
+AG839,Jawahir al madina International,2738 / LHR,Active,,Lahore
+AG840,New Mohsin Overseas,2739 / RWP,Active,,Rawalpindi
+AG841,Sehari International,2740 / KAR,Active,,Karachi
+AG842,Air Touch Corporation,2742 / LHR,Active,,Lahore
+AG843,Al-Zarshid & Brothers Overseas Employment Promoters,2743 / PWR,Active,,
+AG844,S.W.J. Brothers,2744 / KAR,Active,,Karachi
+AG845,Aaraiz Manpower,2746 / RWP,Active,,Rawalpindi
+AG846,Gouhar Manpower Express,2747 / PWR,Active,,
+AG847,Pak Madina International OEP,2749 / KAR,Active,,Karachi
+AG848,Marsad Recruiting Agency,2750 / MLK,Active,,Malakand
+AG849,Yousafzai Brothers,2751 / PWR,Active,,
+AG850,Labbaik Services Private Ltd.,2752 / RWP,Active,,Rawalpindi
+AG851,Pearl International Manpower Services,2753 / RWP,Active,,Rawalpindi
+AG852,Yaj Gulf Overseas Employment Promoter,2758 / RWP,Active,,Rawalpindi
+AG853,Sindhi Manpower,2759 / KAR,Active,,Karachi
+AG854,Rania International,2760 / MTN,Active,,
+AG855,Royals International Recruiting Agency,2761 / RWP,Active,,Rawalpindi
+AG856,Ameer & Sons,2763 / KAR,Active,,Karachi
+AG857,Arshman Manpower Bureau,2764 / LHR,Active,,Lahore
+AG858,Al-Riaz Overseas Employment Promotors,2766 / PWR,Active,,
+AG859,Awan Brothers OEP,2768 / RWP,Active,,Rawalpindi
+AG860,Nejran Overseas,2771 / PWR,Active,,
+AG861,Burki Manpower Bureau,2772 / PWR,Active,,
+AG862,Adnan Malik Enterprises,2774 / RWP,Active,,Rawalpindi
+AG863,Shazail Overseas Employment Promoter,2775 / PWR,Active,,
+AG864,WALEED INTERNATIONAL AGENCY,2776 / MLK,Active,,Malakand
+AG865,Brohi International,2777 / DGK,Active,,D.G. Khan
+AG866,Al-Mudasir Manpower Consultant,2778 / PWR,Active,,
+AG867,Pak Makkah Enterprises,2779 / LHR,Active,,Lahore
+AG868,Raipur International,2780 / SKT,Active,,Sialkot
+AG869,Aswad International,2782 / RWP,Active,,Rawalpindi
+AG870,Gold Ways Enterprises,2783 / SKT,Active,,Sialkot
+AG871,Tootkas Overseas Employment Promoter,2786 / PWR,Active,,
+AG872,Maqbool Overseas Employment,2787 / KAR,Active,,Karachi
+AG873,Saleem Abbass Manpower Services,2788 / SKT,Active,,Sialkot
+AG874,Long Range Manpower Bureau,2790 / RWP,Active,,Rawalpindi
+AG875,Soo-e-Haram Manpower,2791 / KAR,Active,,Karachi
+AG876,Afzon Recruiting Agency,2792 / RWP,Active,,Rawalpindi
+AG877,Saman International,2793 / MLK,Active,,Malakand
+AG878,Peace and Protective Recruiting Agency,2794 / ABT,Active,,Abbottabad
+AG879,Kahout International,2795 / RWP,Active,,Rawalpindi
+AG880,Easy Overseas Employment,2796 / KAR,Active,,Karachi
+AG881,H.A.B Int. Karachi,2798 / KAR,Active,,Karachi
+AG882,Arab League Manpower Agency,2800 / MLK,Active,,Malakand
+AG883,Barcelona Overseas Employment Promoter,2801 / PWR,Active,,
+AG884,SOS International,2805 / KAR,Active,,Karachi
+AG885,Sofnain Ent Karachi,2806 / KAR,Active,,Karachi
+AG886,Tauzeef Al-Muta'al International,2807 / RWP,Active,,Rawalpindi
+AG887,Mingora International,2808 / MLK,Active,,Malakand
+AG888,Faiz Buzdar International,2810 / DGK,Active,,D.G. Khan
+AG889,Al-Waleed Manpower Bureau,2812 / RWP,Active,,Rawalpindi
+AG890,Toor ghar Overseas Employment Promoter,2813 / PWR,Active,,
+AG891,Samaa International,2815 / PWR,Active,,
+AG892,Sakoon Enterprises,2816 / PWR,Active,,
+AG893,Abu Rehan Recruiting Agency,2817 / MLK,Active,,Malakand
+AG894,Ubaidullah Manpower Exporter,2818 / MLK,Active,,Malakand
+AG895,Union Group Enterprises,2819 / PWR,Active,,
+AG896,Razia Manpower Services,2820 / RWP,Active,,Rawalpindi
+AG897,Al-Wahda International,2821 / PWR,Active,,
+AG898,Al-Asia Overseas Employment Promoters,2822 / PWR,Active,,
+AG899,Bab-E-Salam Overseas,2825 / PWR,Active,,
+AG900,Maaz Overseas Corporation,2826 / PWR,Active,,
+AG901,Shining Stars Manpower,3047 / RWP,Active,,Rawalpindi
+AG902,Bin Dadan Recruting Agency,3049 / RWP,Active,,Rawalpindi
+AG903,Spin Ghar Recruting Agency,3050 / PWR,Active,,
+AG904,Shakoor Brother's,3052 / KAR,Active,,Karachi
+AG905,Mansol Manpower Solution,3054 / LHR,Active,,Lahore
+AG906,Dera Ghazi Khan International,3055 / DGK,Active,,D.G. Khan
+AG907,Kaleem Ullah  & Brothers,3056 / LHR,Active,,Lahore
+AG908,Brosha Overseas Employment,3057 / KAR,Active,,Karachi
+AG909,Hina Yameen International,3058 / MTN,Active,,
+AG910,Mewa International,3060 / DGK,Active,,D.G. Khan
+AG911,Mandan Overseas Employment,3062 / PWR,Active,,
+AG912,N.W. International,3063 / MTN,Active,,
+AG913,Burewala Manpower Services,3065 / MTN,Active,,
+AG914,Baizai Overseas Employment Promoters,3067 / PWR,Active,,
+AG915,Saydon Overseas Employment Promoters,3068 / PWR,Active,,
+AG916,Facto Manpower Services,3070 / RWP,Active,,Rawalpindi
+AG917,Alpha Overseas Promoters,3071 / LHR,Active,,Lahore
+AG918,Uraan International,3073 / LHR,Active,,Lahore
+AG919,Dubai Manpower Bureau,3074 / GRT,Active,,Gujrat
+AG920,Kashan Recruiting Agency,3075 / RWP,Active,,Rawalpindi
+AG921,Nizam Overseas Employment Promoters,3076 / PWR,Active,,
+AG922,Ravian International,3077 / MTN,Active,,
+AG923,Jazba International,3079 / RWP,Active,,Rawalpindi
+AG924,Ghaznavi International,3080 / DGK,Active,,D.G. Khan
+AG925,Mian Imran International,3081 / SKT,Active,,Sialkot
+AG926,Al-Wassay Manpower Bureau,3082 / LHR,Active,,Lahore
+AG927,Abbaco International,3085 / RWP,Active,,Rawalpindi
+AG928,Manazar Ali Enterpirses,3087 / RWP,Active,,Rawalpindi
+AG929,Shergarh Corporation,3091 / RWP,Active,,Rawalpindi
+AG930,Dar-ul-Khaleej Manpower Services,3093 / RWP,Active,,Rawalpindi
+AG931,Stallion Overseas Employment Promoter,3094 / RWP,Active,,Rawalpindi
+AG932,Dani Overseas Employment Promoter,3096 / GRT,Active,,Gujrat
+AG933,U. Manpower Bureau,3097 / GRT,Active,,Gujrat
+AG934,Tajdar Overseas Manpower,3098 / PWR,Active,,
+AG935,Jurriest Overseas Employment,3102 / LHR,Active,,Lahore
+AG936,Tanveer Iqbal International,3103 / MTN,Active,,
+AG937,Bemisal Overseas,3104 / PWR,Active,,
+AG938,Shayan International,3105 / MLK,Active,,Malakand
+AG939,Mahreeb International (Pvt) Ltd,3107 / RWP,Active,,Rawalpindi
+AG940,Umeed Overseas,3108 / RWP,Active,,Rawalpindi
+AG941,Nishat Manpower Services,3109 / LHR,Active,,Lahore
+AG942,Al-Nasir Habib International,3110 / LHR,Active,,Lahore
+AG943,Sameer Enterprises,3113 / SKT,Active,,Sialkot
+AG944,Muhammad Bakhsh Manpower Consultant,3114 / KAR,Active,,Karachi
+AG945,Mureekh International OEP,3118 / GRT,Active,,Gujrat
+AG946,OSM Brothers,3120 / KAR,Active,,Karachi
+AG947,Muhammadi Enterprises,3121 / MTN,Active,,
+AG948,Al-Maida Enterprises,3122 / SKT,Active,,Sialkot
+AG949,Surkhab Overseas Employment,3123 / PWR,Active,,
+AG950,Al- Rashid Overseas Employment Promoter,3125 / KAR,Active,,Karachi
+AG951,Pari Manpower Recruiting Agency,3277 / MLK,Active,,Malakand
+AG952,Buraaq-Al-Hisaan,3278 / RWP,Active,,Rawalpindi
+AG953,Al-Nazik International,3279 / MTN,Active,,
+AG954,Janasheen Enterprises,3280 / RWP,Active,,Rawalpindi
+AG955,Emaan Services,3281 / KAR,Active,,Karachi
+AG956,Quaid Enterprises,3282 / SKT,Active,,Sialkot
+AG957,Virk & Jajja Recruiting Agency,3283 / SKT,Active,,Sialkot
+AG958,Eisha Manpower Services,3285 / RWP,Active,,Rawalpindi
+AG959,Arib Enterprises,3288 / RWP,Active,,Rawalpindi
+AG960,Mamun Kanjan Overseas Employment Promoter,3289 / LHR,Active,,Lahore
+AG961,Abyan International,3290 / RWP,Active,,Rawalpindi
+AG962,Al Shoughla OEP,3291 / PWR,Active,,
+AG963,Lime Light International,3292 / RWP,Active,,Rawalpindi
+AG964,Shabqadar Overseas Corporation,3293 / PWR,Active,,
+AG965,Maktab International,3294 / LHR,Active,,Lahore
+AG966,Sea Crest Overseas,3296 / RWP,Active,,Rawalpindi
+AG967,Al-Khuld Overseas Employment Promoters,3297 / RWP,Active,,Rawalpindi
+AG968,The Kashar Recruitment Bureau,3298 / RWP,Active,,Rawalpindi
+AG969,Al-Noros International,3299 / RWP,Active,,Rawalpindi
+AG970,Blue Shine,3300 / PWR,Active,,
+AG971,Al-Sarwar Enterprises,3301 / SKT,Active,,Sialkot
+AG972,Wise Men International Employees,3302 / SKT,Active,,Sialkot
+AG973,Manget International,3303 / LHR,Active,,Lahore
+AG974,Warafana Manpower Exporters,3304 / LHR,Active,,Lahore
+AG975,Sangra International OEP,3305 / LHR,Active,,Lahore
+AG976,Marwareed Enterprises,3306 / RWP,Active,,Rawalpindi
+AG977,Sehreena Enterprises,3308 / RWP,Active,,Rawalpindi
+AG978,Mohib Corporation,3310 / RWP,Active,,Rawalpindi
+AG979,Mahroosh Recruiting,3316 / MLK,Active,,Malakand
+AG980,Nilab OEP,3320 / MLK,Active,,Malakand
+AG981,Eilia International,3321 / MTN,Active,,
+AG982,Tamana International,3323 / MTN,Active,,
+AG983,Hudabia International Manpower Service,3324 / DGK,Active,,D.G. Khan
+AG984,Prudential R/Agency,3325 / LHR,Active,,Lahore
+AG985,Pak Links Travels,3327 / DGK,Active,,D.G. Khan
+AG986,Bab-e-Khyber Enterprises.,3328 / PWR,Active,,
+AG987,BlueBells International,3329 / RWP,Active,,Rawalpindi
+AG988,Mufsal Services Bureau,3330 / LHR,Active,,Lahore
+AG989,Arfain Enterprises,3331 / KAR,Active,,Karachi
+AG990,Chaudhary Usman International,3333 / LHR,Active,,Lahore
+AG991,RN International Recruitment Agency,3334 / LHR,Active,,Lahore
+AG992,Masdar International,3336 / MTN,Active,,
+AG993,Mehman Enterprises,3338 / PWR,Active,,
+AG994,Zafran Recruiting Agency,3340 / RWP,Active,,Rawalpindi
+AG995,Khallad Enterprises,3341 / MLK,Active,,Malakand
+AG996,Maryam Recruiting Agency,3342 / RWP,Active,,Rawalpindi
+AG997,Mubashar & Waseem Enterprises,3344 / RWP,Active,,Rawalpindi
+AG998,Shirka Al-Nijran Manpower Services,3346 / RWP,Active,,Rawalpindi
+AG999,Sweet Attar Manpower,3348 / LHR,Active,,Lahore
+AG1000,Imad Overseas,3349 / PWR,Active,,
+AG1001,Hussam & Zaki International Manpower Bureau,3521 / MTN,Active,,
+AG1002,JM Overseas Employment Promoter,3523 / LHR,Active,,Lahore
+AG1003,Al-Zuhayr Overseas,3526 / KAR,Active,,Karachi
+AG1004,Hatim and Brothers Overseas Employment Bureau,3527 / KAR,Active,,Karachi
+AG1005,Shukurya Bangash,3528 / PWR,Active,,
+AG1006,New Abbasi Brothers Overseas Promoters,3529 / RWP,Active,,Rawalpindi
+AG1007,Al Mehriya International,3530 / LHR,Active,,Lahore
+AG1008,Sabz Ali Khan and Brother,3531 / PWR,Active,,
+AG1009,Hayatani International Recruiting Agency,3532 / DGK,Active,,D.G. Khan
+AG1010,New Qurtaba International,3539 / SKT,Active,,Sialkot
+AG1011,Fourteen Stars Brothers Enterpises,3543 / RWP,Active,,Rawalpindi
+AG1012,Hamdard Manpower Services,3546 / RWP,Active,,Rawalpindi
+AG1013,Earth Manpower,3547 / RWP,Active,,Rawalpindi
+AG1014,Kabi International,3548 / LHR,Active,,Lahore
+AG1015,Tripoli Manpower Service,3549 / RWP,Active,,Rawalpindi
+AG1016,Darul Abrar Overseas,3550 / PWR,Active,,
+AG1017,Jaffer HR Services,3551 / RWP,Active,,Rawalpindi
+AG1018,Abteen Recruiting Agency,3554 / MLK,Active,,Malakand
+AG1019,Professional Visa Services,3555 / RWP,Active,,Rawalpindi
+AG1020,Al-Kayyali International Agencies,3556 / KAR,Active,,Karachi
+AG1021,Alavi Overseas Consultant,3560 / KAR,Active,,Karachi
+AG1022,Sweda International,3561 / MLK,Active,,Malakand
+AG1023,Koh-I-Suleman International,3562 / DGK,Active,,D.G. Khan
+AG1024,Stecon Overseas Employment Services,3564 / LHR,Active,,Lahore
+AG1025,Yashfa Corporation,3565 / LHR,Active,,Lahore
+AG1026,Sabi Corporation,3566 / LHR,Active,,Lahore
+AG1027,Lazawal International,3568 / LHR,Active,,Lahore
+AG1028,New Talent Recruitment and Consultants,3569 / RWP,Active,,Rawalpindi
+AG1029,Sugra International Overseas Employment Promoter,3571 / LHR,Active,,Lahore
+AG1030,Dewan Manpower Services,3572 / RWP,Active,,Rawalpindi
+AG1031,Reehan Bin Usman International OEP,3574 / KAR,Active,,Karachi
+AG1032,Fasia Manpower Bureau,3576 / KAR,Active,,Karachi
+AG1033,Janwari International,3577 / KAR,Active,,Karachi
+AG1034,Sarkar Manpower Services,3578 / KAR,Active,,Karachi
+AG1035,Way 2 Makkah International,3579 / KAR,Active,,Karachi
+AG1036,Oxbridge Manpower Bureau,3580 / RWP,Active,,Rawalpindi
+AG1037,Banjonsoa Air Ways Overseas,3581 / RWP,Active,,Rawalpindi
+AG1038,RT and Sons Overseas Employment Promoter,3585 / RWP,Active,,Rawalpindi
+AG1039,Jabbi Recruiting Agency,3586 / RWP,Active,,Rawalpindi
+AG1040,Syed Hassan Shah & Sons,3587 / KAR,Active,,Karachi
+AG1041,Broker International Overseas Employments,3590 / MTN,Active,,
+AG1042,Orange Overseas Consultants (Private) Limited,3593 / RWP,Active,,Rawalpindi
+AG1043,Panj Pao Manpower,3594 / PWR,Active,,
+AG1044,Gul World Overseas,3596 / SKT,Active,,Sialkot
+AG1045,Hazara Manpower Services,3597 / RWP,Active,,Rawalpindi
+AG1046,N.F Recruitment Services,3598 / RWP,Active,,Rawalpindi
+AG1047,Blessing Manpower Services,3600 / RWP,Active,,Rawalpindi
+AG1048,Kaleem Ullah International Overseas Employment Promoter,3601 / RWP,Active,,Rawalpindi
+AG1049,Dominator O.E.P,3602 / SKT,Active,,Sialkot
+AG1050,CRG Pakistan Recruitment Agency,3605 / LHR,Active,,Lahore
+AG1051,Pak East West,3767 / LHR,Active,,Lahore
+AG1052,Taqvi International Manpower Bureau,3768 / GRT,Active,,Gujrat
+AG1053,Zaighum Enterprises,3769 / RWP,Active,,Rawalpindi
+AG1054,Sajdah International,3772 / MTN,Active,,
+AG1055,Al- Bashar Recruitment Services,3773 / SKT,Active,,Sialkot
+AG1056,Xenium Overseas Employment Promoter,3774 / RWP,Active,,Rawalpindi
+AG1057,Royal Makkah Overseas,3775 / LHR,Active,,Lahore
+AG1058,Morning Star Recuiting Agency,3776 / SKT,Active,,Sialkot
+AG1059,Diroje International,3777 / KAR,Active,,Karachi
+AG1060,Y.A.H. International,3779 / KAR,Active,,Karachi
+AG1061,First Global Enterprises,3780 / SKT,Active,,Sialkot
+AG1062,Matore Manpower,3781 / RWP,Active,,Rawalpindi
+AG1063,Madanphilla Recruiting Agency,3782 / LHR,Active,,Lahore
+AG1064,Farzam International,3783 / KAR,Active,,Karachi
+AG1065,Darain Overseas,3784 / RWP,Active,,Rawalpindi
+AG1066,Arshian Wazeer International,3788 / DGK,Active,,D.G. Khan
+AG1067,Ramlah International,3789 / MTN,Active,,
+AG1068,Mitru International Overseas Employment,3791 / MTN,Active,,
+AG1069,Neelab Enterprises,3792 / PWR,Active,,
+AG1070,Creative Achievers Overseas Recruiters,3793 / RWP,Active,,Rawalpindi
+AG1071,Kaizen Manpower Company,3795 / KAR,Active,,Karachi
+AG1072,Great Future Overseas Employment Promoter,3796 / GRT,Active,,Gujrat
+AG1073,The Shahzad Manpower Services,3799 / SKT,Active,,Sialkot
+AG1074,Bio-Tech International,3800 / RWP,Active,,Rawalpindi
+AG1075,M/s Loyal Overseas Employment Promoter,3802 / PWR,Active,,
+AG1076,KPK Overseas,3803 / RWP,Active,,Rawalpindi
+AG1077,Hasilpur Corporation,3804 / RWP,Active,,Rawalpindi
+AG1078,M/s PTP Overseas Employment Promoter,3807 / RWP,Active,,Rawalpindi
+AG1079,Khujarri Overseas Employment Promoter,3808 / PWR,Active,,
+AG1080,Khayaban Overseas Employment Promoters,3809 / PWR,Active,,
+AG1081,Zargham Overseas Employment Promoters,3810 / PWR,Active,,
+AG1082,Sangla Overseas Employment Promoters,3812 / LHR,Active,,Lahore
+AG1083,Neroon Kot Overseas Employment,3813 / KAR,Active,,Karachi
+AG1084,Khushaal Overseas,3815 / RWP,Active,,Rawalpindi
+AG1085,M.I. Hashmi Overseas Employment Promoter,3816 / RWP,Active,,Rawalpindi
+AG1086,Travigent Overseas,3817 / KAR,Active,,Karachi
+AG1087,Larsa Aroos Manpower,3819 / RWP,Active,,Rawalpindi
+AG1088,High World International Overseas Promoter,3820 / RWP,Active,,Rawalpindi
+AG1089,Bait-Ul-Mamoor Overseas,3821 / LHR,Active,,Lahore
+AG1090,Al-Tabi International,3823 / MTN,Active,,
+AG1091,MLS Enterprises,3824 / RWP,Active,,Rawalpindi
+AG1092,Al-Rajab International Overseas Employment,3826 / SKT,Active,,Sialkot
+AG1093,Qari & Sons International,3827 / LHR,Active,,Lahore
+AG1094,Naseem & Brothers Manpower Recruiting Agency,3828 / KAR,Active,,Karachi
+AG1095,Diar-e-Habib Recruiting Agency,3829 / MLK,Active,,Malakand
+AG1096,Alif Overseas Employment Promoters,3830 / MTN,Active,,
+AG1097,Sky High Overseas Employment Promoters,3831 / KAR,Active,,Karachi
+AG1098,The Best Future International,3832 / MTN,Active,,
+AG1099,Quetta Overseas Employment Promoter,3833 / QTA,Active,,Quetta
+AG1100,BTTC BADSHAH OVERSEAS EMPLOYMENT PROMOTER,3838 / MLK,Active,,Malakand
+AG1101,T.K.B Recruting Agency,3986 / PWR,Active,,
+AG1102,Damana Overseas,3987 / MLK,Active,,Malakand
+AG1103,OK Mainpower Bureau,3988 / LHR,Active,,Lahore
+AG1104,NKT Overseas Employment Promoters,3991 / MTN,Active,,
+AG1105,Jaranwala Manpower Services,3993 / LHR,Active,,Lahore
+AG1106,A.B.S. Engineering Promoters,3994 / LHR,Active,,Lahore
+AG1107,Khuda Bux & Sons Overseas Employment Promoters,3995 / KAR,Active,,Karachi
+AG1108,T.S.P. Recruiting Agency,3996 / MTN,Active,,
+AG1109,Amsons Manpower,3997 / RWP,Active,,Rawalpindi
+AG1110,Spot Light Enterprises,3998 / RWP,Active,,Rawalpindi
+AG1111,Tangent Recruitment Agency,3999 / RWP,Active,,Rawalpindi
+AG1112,Sargodha Manpower,4000 / LHR,Active,,Lahore
+AG1113,Golan International Overseas Employment Promoter,4003 / LHR,Active,,Lahore
+AG1114,ANB International,4004 / RWP,Active,,Rawalpindi
+AG1115,Day & Night Recruiting Agency & Overseas Employment Promoters,4005 / RWP,Active,,Rawalpindi
+AG1116,Muzayyan International,4006 / MLK,Active,,Malakand
+AG1117,Get Well International,4007 / RWP,Active,,Rawalpindi
+AG1118,Backup Capital Overseas Promoters,4008 / RWP,Active,,Rawalpindi
+AG1119,M.H.P Panhwar Enterprises,4009 / KAR,Active,,Karachi
+AG1120,Elaf Associates,4010 / SKT,Active,,Sialkot
+AG1121,Iresco Overseas Employment Promoter,4011 / RWP,Active,,Rawalpindi
+AG1122,Anshrakh International,4012 / GRT,Active,,Gujrat
+AG1123,S.M.R Manpower Services,4013 / PWR,Active,,
+AG1124,Zujajah Enterprises,4014 / RWP,Active,,Rawalpindi
+AG1125,Skhani One Manpower,4016 / PWR,Active,,
+AG1126,Flight Centre Overseas Employment Promoters,4017 / PWR,Active,,
+AG1127,Anchor Manpower Services Pvt Ltd,4019 / RWP,Active,,Rawalpindi
+AG1128,Lali Khel Overseas,4020 / MLK,Active,,Malakand
+AG1129,Laqab Daman International,4021 / DGK,Active,,D.G. Khan
+AG1130,Soneri Jamal International,4022 / MLK,Active,,Malakand
+AG1131,Sangar Swat Enterprises,4023 / MLK,Active,,Malakand
+AG1132,Al Dawadmi International,4024 / SKT,Active,,Sialkot
+AG1133,Bazam International,4025 / DGK,Active,,D.G. Khan
+AG1134,K & Sons HR Solutions,4026 / LHR,Active,,Lahore
+AG1135,Tur Kham Enterprises,4027 / MLK,Active,,Malakand
+AG1136,Hashmat Khanbaba Manpower Consultant,4028 / MLK,Active,,Malakand
+AG1137,Hoti Enterprises,4029 / PWR,Active,,
+AG1138,Ustad Dhoda Sharif Overseas,4031 / PWR,Active,,
+AG1139,M. Pak Makkah Manpower Services,4032 / RWP,Active,,Rawalpindi
+AG1140,Al-Atta Recruiting Agency,4033 / MLK,Active,,Malakand
+AG1141,Ballaj International,4034 / KAR,Active,,Karachi
+AG1142,Falisha Enterprises,4035 / RWP,Active,,Rawalpindi
+AG1143,Al-Rehaf International Overseas Employment,4036 / RWP,Active,,Rawalpindi
+AG1144,Transwheel corporation,4037 / LHR,Active,,Lahore
+AG1145,MRD Sky Air Services Overseas Employment Promoter,4038 / PWR,Active,,
+AG1146,Mahender Overseas Employment Promoter,4039 / RWP,Active,,Rawalpindi
+AG1147,Zamil Enterprises,4042 / MLK,Active,,Malakand
+AG1148,Pilgrim Overseas,4043 / MLK,Active,,Malakand
+AG1149,Al-Back Enterprises,4045 / PWR,Active,,
+AG1150,Decision HR Recruitment,4046 / RWP,Active,,Rawalpindi
+AG1151,Masthoom Overseas Employment Promoter,4172 / RWP,Active,,Rawalpindi
+AG1152,H.A.K. International,4173 / KAR,Active,,Karachi
+AG1153,Al Zafra Manpower,4174 / PWR,Active,,
+AG1154,Oilum International Overseas Employment Promoter,4175 / PWR,Active,,
+AG1155,Al-Jamoom Overseas,4176 / DGK,Active,,D.G. Khan
+AG1156,Sayazar Recruiting Agency,4177 / MLK,Active,,Malakand
+AG1157,Satoon Manpower,4180 / PWR,Active,,
+AG1158,New Hafiz Bashir International,4181 / MTN,Active,,
+AG1159,M.I.C. Recruiting Agency,4182 / KAR,Active,,Karachi
+AG1160,W and H Brothers,4185 / KAR,Active,,Karachi
+AG1161,Gulbahar Overseas,4186 / PWR,Active,,
+AG1162,Bricks Land Manpower,4187 / RWP,Active,,Rawalpindi
+AG1163,THA Overseas Employment Promoters,4189 / LHR,Active,,Lahore
+AG1164,Al-Attebi Overseas,4190 / PWR,Active,,
+AG1165,Fresh Mind Talent Overseas Promoters,4192 / LHR,Active,,Lahore
+AG1166,Al-Fauz International Bureau,4193 / PWR,Active,,
+AG1167,ADH Mirza International,4194 / RWP,Active,,Rawalpindi
+AG1168,JICO Pakistan Overseas Employment Promoters,4195 / LHR,Active,,Lahore
+AG1169,Mirzai Overseas Employment Promoter,4196 / PWR,Active,,
+AG1170,Toru United Overseas Employment Promoters,4197 / PWR,Active,,
+AG1171,Al-Rais Sardar Brothers,4199 / KAR,Active,,Karachi
+AG1172,J.I.Q. Enterprises,4200 / RWP,Active,,Rawalpindi
+AG1173,Bajjarr International,4201 / RWP,Active,,Rawalpindi
+AG1174,Banosi Manpower,4203 / PWR,Active,,
+AG1175,Sain Services Bureau,4204 / KAR,Active,,Karachi
+AG1176,Al-Bakhair Overseas,4205 / PWR,Active,,
+AG1177,Hayan Manpower,4206 / MLK,Active,,Malakand
+AG1178,Al-Haseena Enterprises,4207 / MLK,Active,,Malakand
+AG1179,Al-Jazoor International Recruiting Agency,4208 / MLK,Active,,Malakand
+AG1180,Climax Recruiting Agency,4209 / SKT,Active,,Sialkot
+AG1181,Zacon International Overseas Employment Promoter,4210 / GRT,Active,,Gujrat
+AG1182,Zissa International,4211 / SKT,Active,,Sialkot
+AG1183,Arabeto Manpower Services,4212 / LHR,Active,,Lahore
+AG1184,AM Noor International OEP,4214 / MTN,Active,,
+AG1185,Al-Mubdi Overseas Employment Promotors,4216 / KAR,Active,,Karachi
+AG1186,Z.R.A. Overseas,4218 / RWP,Active,,Rawalpindi
+AG1187,Dure Nayab Overseas Employment,4219 / PWR,Active,,
+AG1188,Abr-e-Rehmat Overseas Employment Promoter,4220 / KAR,Active,,Karachi
+AG1189,Al-Muteri Overseas Employment,4222 / MTN,Active,,
+AG1190,Anooj Overseas Employment Promoters,4224 / PWR,Active,,
+AG1191,Wembley Manpower,4225 / RWP,Active,,Rawalpindi
+AG1192,Weco International,4226 / KAR,Active,,Karachi
+AG1193,Khalilani Baloch Overseas International,4227 / DGK,Active,,D.G. Khan
+AG1194,J. Zaib Overseas Employment,4228 / KAR,Active,,Karachi
+AG1195,Sanara International,4229 / KAR,Active,,Karachi
+AG1196,Al Hannan International,4230 / LHR,Active,,Lahore
+AG1197,R.G.M Babo Overseas Employment,4231 / PWR,Active,,
+AG1198,Sindheri Enterprises,4232 / KAR,Active,,Karachi
+AG1199,Hayaseri Recruiting Agency,4233 / MLK,Active,,Malakand
+AG1200,Al-Janoon Overseas Employment Promoters,4234 / KAR,Active,,Karachi
+AG1201,PGT MANPOWER,4361 / KAR,Active,,Karachi
+AG1202,INTER-FRET CONSOLIDATORS (PVT) LTD.,4362 / KAR,Active,,Karachi
+AG1203,A CLASS MOON MANPOWER,4364 / SKT,Active,,Sialkot
+AG1204,AL NAMAS CORPORATION,4365 / RWP,Active,,Rawalpindi
+AG1205,BARA KHAN RECRUITMENT AGENCY,4366 / RWP,Active,,Rawalpindi
+AG1206,MACYS RECRUITMENT AGENCY,4367 / LHR,Active,,Lahore
+AG1207,AZAM BIN SHAHAB INTERNATIONAL,4368 / RWP,Active,,Rawalpindi
+AG1208,ABU HAMMAD INTERNATIONAL,4373 / RWP,Active,,Rawalpindi
+AG1209,R.S.H.L. MANPOWER SERVICES,4376 / MTN,Active,,
+AG1210,SC SILVER CORNER MANPOWER SERVICES,4378 / LHR,Active,,Lahore
+AG1211,FORUM OVERSEAS SERVICES,4380 / GRT,Active,,Gujrat
+AG1212,JHOKE INTERNATIONAL,4381 / DGK,Active,,D.G. Khan
+AG1213,ICO INTERNATIONAL,4383 / KAR,Active,,Karachi
+AG1214,KHAYABAN-E-KABIR MANPOWER,4385 / MTN,Active,,
+AG1215,FIZAGHAT RECRUITING AGENCY,4386 / MLK,Active,,Malakand
+AG1216,MEHMOODA NASEER & SONS INTERNATIONAL,4387 / KAR,Active,,Karachi
+AG1217,OSAN MANPOWER SOLUTION,4388 / KAR,Active,,Karachi
+AG1218,KMA INTERNATIONAL OVERSEAS EMPLOYMENT,4389 / RWP,Active,,Rawalpindi
+AG1219,MACHHIANWALA MANPOWER SERVICES,4392 / MTN,Active,,
+AG1220,OKAZ RECRUITING AGENCY,4394 / PWR,Active,,
+AG1221,JMS HR CONSULTANTS,4395 / RWP,Active,,Rawalpindi
+AG1222,IAS MANPOWER,4396 / RWP,Active,,Rawalpindi
+AG1223,AL-KHWAIZY MANPOWER,4397 / PWR,Active,,
+AG1224,AL-JUFF SAMI MANPOWER,4398 / MLK,Active,,Malakand
+AG1225,RESPECTIVE MANPOWER,4403 / ABT,Active,,Abbottabad
+AG1226,AASHIR & BROTHERS (PVT) LTD,4405 / RWP,Active,,Rawalpindi
+AG1227,SOJLI GUL MUHAMMAD INTERNATIONAL,4409 / DGK,Active,,D.G. Khan
+AG1228,WAQID ENTERPRISES,4410 / RWP,Active,,Rawalpindi
+AG1229,NIGHT MOON ENTERPRISES,4411 / PWR,Active,,
+AG1230,WBI MANPOWER,4413 / SKT,Active,,Sialkot
+AG1231,WHOLE WORLD ENTERPRISES,4414 / SKT,Active,,Sialkot
+AG1232,SMR International Recruitment Consultants,4415 / RWP,Active,,Rawalpindi
+AG1233,UNILITE MANPOWER SERVICES,4416 / KAR,Active,,Karachi
+AG1234,STNB GLOBAL,4419 / GRT,Active,,Gujrat
+AG1235,WAFAQ OVERSEAS EMPLOYMENT,4420 / RWP,Active,,Rawalpindi
+AG1236,ZAD JAN BROTHERS,4421 / RWP,Active,,Rawalpindi
+AG1237,WAJDAN ENTERPRISES,4422 / KAR,Active,,Karachi
+AG1238,TBI OVERSEAS EMPLOYMENT PROMOTERS,4423 / SKT,Active,,Sialkot
+AG1239,EVEN ENTERPRISES,4426 / KAR,Active,,Karachi
+AG1240,TASMINA ASIF OVERSEAS,4427 / KAR,Active,,Karachi
+AG1241,AL YAMANI OVERSEAS EMPLOYMENT PROMOTER,4429 / RWP,Active,,Rawalpindi
+AG1242,ADECCO INTERNATIONAL RECRUITING AGENCY,4431 / RWP,Active,,Rawalpindi
+AG1243,GS INTERNATIONAL,4433 / DGK,Active,,D.G. Khan
+AG1244,MASS BUSINESS SOLUTIONS,4434 / RWP,Active,,Rawalpindi
+AG1245,FLY NAZ OVERSEAS AND EMPLOYMENT,4436 / DGK,Active,,D.G. Khan
+AG1246,YOSHA INTERNATIONAL,4437 / RWP,Active,,Rawalpindi
+AG1247,LBS BILAL INTERNATIONAL,4439 / MLK,Active,,Malakand
+AG1248,Z & M OVERSEAS EMPLOYMENT PROMOTERS,4440 / MTN,Active,,
+AG1249,AMAR TRADERS,4441 / PWR,Active,,
+AG1250,SAYANA DAMAN MANPOWER,4442 / RWP,Active,,Rawalpindi
+AG1251,Battagram Corporation,4556 / RWP,Active,,Rawalpindi
+AG1252,Pillars Consultancy,4558 / KAR,Active,,Karachi
+AG1253,Unilink Enterprises,4559 / PWR,Active,,
+AG1254,Darussalam Manpower,4560 / KAR,Active,,Karachi
+AG1255,Bisha Overseas Employment Promoters,4561 / SKT,Active,,Sialkot
+AG1256,M/s. Liza Manpower,4562 / MLK,Active,,Malakand
+AG1257,Naik Feroz Overseas Employment Promoter,4564 / PWR,Active,,
+AG1258,Kashish International,4565 / DGK,Active,,D.G. Khan
+AG1259,CWM International,4566 / MTN,Active,,
+AG1260,Lakho Overseas,4567 / KAR,Active,,Karachi
+AG1261,Stanadar Recruiting Agency,4568 / MLK,Active,,Malakand
+AG1262,Sulaimanya Recruitment Overseas Employment Agency,4569 / PWR,Active,,
+AG1263,M/s. Karramar International,4571 / PWR,Active,,
+AG1264,Zonaira Enterprises,4572 / LHR,Active,,Lahore
+AG1265,Ryan Contracting and Manpower Solutions,4573 / KAR,Active,,Karachi
+AG1266,Asaco Overseas Employment Promoters,4574 / KAR,Active,,Karachi
+AG1267,Rohaan Affan,4575 / KAR,Active,,Karachi
+AG1268,Conexess International,4576 / LHR,Active,,Lahore
+AG1269,Grace Recruitment Agency,4577 / RWP,Active,,Rawalpindi
+AG1270,Flag Leader Manpower,4579 / ABT,Active,,Abbottabad
+AG1271,Eleven Afridi Enterprises,4580 / KAR,Active,,Karachi
+AG1272,Ashaaz Overseas,4581 / KAR,Active,,Karachi
+AG1273,Thakyal Rajpoot Overseas,4582 / RWP,Active,,Rawalpindi
+AG1274,Nasrullah International,4583 / RWP,Active,,Rawalpindi
+AG1275,Suhaib & Associates,4584 / LHR,Active,,Lahore
+AG1276,Alberony Manpower Services,4585 / RWP,Active,,Rawalpindi
+AG1277,The AYK Overseas Bureau,4586 / KAR,Active,,Karachi
+AG1278,Nationanwide Recruitment Consultants,4588 / RWP,Active,,Rawalpindi
+AG1279,Zarib Manpower,4589 / MLK,Active,,Malakand
+AG1280,Zaigham International,4590 / MTN,Active,,
+AG1281,Bagh Bahar International Manpower,4591 / LHR,Active,,Lahore
+AG1282,Luqman Mohmand OEP,4593 / PWR,Active,,
+AG1283,AJ&K Manpower,4594 / RWP,Active,,Rawalpindi
+AG1284,Palandari International,4595 / RWP,Active,,Rawalpindi
+AG1285,Doha International,4596 / MLK,Active,,Malakand
+AG1286,Growth Manpower Services,4597 / RWP,Active,,Rawalpindi
+AG1287,Greenland Overseas,4598 / KAR,Active,,Karachi
+AG1288,Abbottabad Manpower,4599 / RWP,Active,,Rawalpindi
+AG1289,Habiba Overseas,4600 / KAR,Active,,Karachi
+AG1290,Huz Manpower Service,4601 / LHR,Active,,Lahore
+AG1291,Elma International,4602 / MTN,Active,,
+AG1292,Adyan International,4603 / DGK,Active,,D.G. Khan
+AG1293,Salatora Manpower,4604 / PWR,Active,,
+AG1294,Hasanat Brothers,4605 / PWR,Active,,
+AG1295,Bab-e-Dir Overseas Employment Promoter,4606 / MLK,Active,,Malakand
+AG1296,Gulfa Recruiting Agency,4607 / PWR,Active,,
+AG1297,Bazira Corporation,4608 / MLK,Active,,Malakand
+AG1298,Abiha Overseas,4609 / KAR,Active,,Karachi
+AG1299,Interworld Travels (Pvt) Ltd.,4610 / LHR,Active,,Lahore
+AG1300,Pushkalavati Overseas,4611 / PWR,Active,,
+AG1301,Faramoz & Son,4719 / MLK,Active,,Malakand
+AG1302,Sangolai Recruiting,4720 / MLK,Active,,Malakand
+AG1303,Bol Manpower Recruitment Agency,4721 / MTN,Active,,
+AG1304,Northern Manpower Enterprise,4722 / MLK,Active,,Malakand
+AG1305,Humqadam Overseas Employment Promoter,4723 / MLK,Active,,Malakand
+AG1306,Hafsa & Co,4724 / KAR,Active,,Karachi
+AG1307,KHF Fahad & Brothers,4725 / MTN,Active,,
+AG1308,Hakeem Corporation,4726 / MLK,Active,,Malakand
+AG1309,Kirpa Manpower,4727 / RWP,Active,,Rawalpindi
+AG1310,Guardian Overseas Employment,4729 / RWP,Active,,Rawalpindi
+AG1311,Akmal Recruiting Agency,4731 / RWP,Active,,Rawalpindi
+AG1312,Hattian Bala Manpower,4733 / RWP,Active,,Rawalpindi
+AG1313,Leisure Employment International Corporation,4734 / RWP,Active,,Rawalpindi
+AG1314,College of International Skills Development,4735 / LHR,Active,,Lahore
+AG1315,Go Source Placement Services,4736 / RWP,Active,,Rawalpindi
+AG1316,The Wave Enterprises,4737 / LHR,Active,,Lahore
+AG1317,Alwat Corporation,4738 / MLK,Active,,Malakand
+AG1318,Mekong Manpower Services,4739 / RWP,Active,,Rawalpindi
+AG1319,Maleeha Group of Companies,4740 / RWP,Active,,Rawalpindi
+AG1320,Support International,4741 / RWP,Active,,Rawalpindi
+AG1321,Honey Raja Manpower Services,4742 / LHR,Active,,Lahore
+AG1322,Kazim Manpower Services,4743 / RWP,Active,,Rawalpindi
+AG1323,Saqi Enterprises,4745 / SKT,Active,,Sialkot
+AG1324,Zubiless International Recruitment,4746 / LHR,Active,,Lahore
+AG1325,Chamkani International,4747 / PWR,Active,,
+AG1326,Hana Global Employment Agency,4748 / LHR,Active,,Lahore
+AG1327,Federal Manpower Promoter,4749 / RWP,Active,,Rawalpindi
+AG1328,Zarlal Recruiting Agency,4750 / MLK,Active,,Malakand
+AG1329,Ingress Consultancies,4751 / RWP,Active,,Rawalpindi
+AG1330,Al-Jazzan Consultancy,4752 / RWP,Active,,Rawalpindi
+AG1331,Humble Overseas,4755 / KAR,Active,,Karachi
+AG1332,Sarena Corporation,4756 / PWR,Active,,
+AG1333,Rukhsar International Overseas,4757 / PWR,Active,,
+AG1334,Adan Kiani Enterprises (Pvt) Ltd.,4758 / LHR,Active,,Lahore
+AG1335,Zarlisht Enterprises O.E.P,4759 / PWR,Active,,
+AG1336,Al-Amthal Recruitment Consultant,4760 / KAR,Active,,Karachi
+AG1337,Lund Khawar International,4761 / PWR,Active,,
+AG1338,JPZ Manpower,4763 / SKT,Active,,Sialkot
+AG1339,Binham International,4764 / RWP,Active,,Rawalpindi
+AG1340,Ottawa International Overseas Employment Promoter,4765 / DGK,Active,,D.G. Khan
+AG1341,Umme Salar Overseas,4767 / RWP,Active,,Rawalpindi
+AG1342,Future Counsellor International Recruitment,4768 / LHR,Active,,Lahore
+AG1343,Hires Manpower Service,4769 / LHR,Active,,Lahore
+AG1344,Bros Japan PK,4770 / KAR,Active,,Karachi
+AG1345,HELLO Manpower Services,4771 / RWP,Active,,Rawalpindi
+AG1346,ZC International,4772 / RWP,Active,,Rawalpindi
+AG1347,Meeram International,4773 / MTN,Active,,
+AG1348,Tabeer Enterprises,4774 / LHR,Active,,Lahore
+AG1349,Al-Aqeeq International,4775 / MTN,Active,,
+AG1350,Dosanjh Overseas Services,4776 / LHR,Active,,Lahore
+AG1351,My Way Hashir Manpower Services,4896 / MTN,Active,,
+AG1352,Umair Ayaz Manpower,4897 / PWR,Active,,
+AG1353,Mountain Enterprises,4898 / SKT,Active,,Sialkot
+AG1354,Mathra International Overseas,4899 / PWR,Active,,
+AG1355,Emerald Recruiting Agency,4900 / KAR,Active,,Karachi
+AG1356,Areeha Overseas Employment Promoter,4901 / SKT,Active,,Sialkot
+AG1357,Masjid-e-Nabvi Overseas Employment Promoter,4902 / LHR,Active,,Lahore
+AG1358,Canny Legal Services (Private) Limited,4903 / SKT,Active,,Sialkot
+AG1359,Gul Rang Manpower,4904 / MLK,Active,,Malakand
+AG1360,LUBABA RECRUITING AGENCY,4905 / MLK,Active,,Malakand
+AG1361,Chiraagh Enterprises,4906 / RWP,Active,,Rawalpindi
+AG1362,Baim Overseas Employment Promoter,4908 / LHR,Active,,Lahore
+AG1363,Monees Enterprises,4909 / DGK,Active,,D.G. Khan
+AG1364,Jauranah Overseas,4910 / RWP,Active,,Rawalpindi
+AG1365,Nizam Overseas,4911 / KAR,Active,,Karachi
+AG1366,Restart Overseas,4912 / KAR,Active,,Karachi
+AG1367,Yellow Label Recruitment,4913 / KAR,Active,,Karachi
+AG1368,Ismail Aviation International,4914 / LHR,Active,,Lahore
+AG1369,Rawalpindi International Services,4915 / RWP,Active,,Rawalpindi
+AG1370,Khushboo International,4917 / RWP,Active,,Rawalpindi
+AG1371,International Learning & Manpower (Pvt) Ltd,4919 / LHR,Active,,Lahore
+AG1372,Gifto Overseas,4920 / KAR,Active,,Karachi
+AG1373,Aquarius International,4921 / KAR,Active,,Karachi
+AG1374,Rumi & Jami Manpower Services,4922 / LHR,Active,,Lahore
+AG1375,Karobar Point (SMC-Pvt) Ltd.,4923 / RWP,Active,,Rawalpindi
+AG1376,We Employee You Overseas Employment Promoter,4924 / PWR,Active,,
+AG1377,Sikaram Overseas Employment Promoters,4925 / RWP,Active,,Rawalpindi
+AG1378,Chamba International,4926 / RWP,Active,,Rawalpindi
+AG1379,Shahzad Ismail Enterprises,4927 / KAR,Active,,Karachi
+AG1380,Syed Uzair Shah Recruiting Agency,4929 / PWR,Active,,
+AG1381,Quest Manpower Services,4930 / LHR,Active,,Lahore
+AG1382,AL-E-SHAN INTERNATIONAL,4931 / KAR,Active,,Karachi
+AG1383,Noori Overseas,4932 / RWP,Active,,Rawalpindi
+AG1384,Tradex Pioneer (SMC-Private) Limited,4933 / RWP,Active,,Rawalpindi
+AG1385,Sheikh Rahamkar Overseas,4934 / PWR,Active,,
+AG1386,Pride Manpower Agency,4935 / LHR,Active,,Lahore
+AG1387,Bin Haider Recruiting Agency,4936 / PWR,Active,,
+AG1388,Al-Khaldi Manpower,4937 / RWP,Active,,Rawalpindi
+AG1389,New Brand Manpower Recruitment Services,4938 / RWP,Active,,Rawalpindi
+AG1390,First Choice International Recruitment Agency,4939 / RWP,Active,,Rawalpindi
+AG1391,AHMED SULTAN MANPOWER EXPORTERS,4941 / LHR,Active,,Lahore
+AG1392,Luxera Enterprises Overseas Employment,4942 / KAR,Active,,Karachi
+AG1393,Dream Maker Travel (SMC-Pvt) Ltd.,4943 / PWR,Active,,
+AG1394,Supreme Group of International,4944 / SKT,Active,,Sialkot
+AG1395,Raja Jamil Recruiting Agency,4945 / RWP,Active,,Rawalpindi
+AG1396,Discount Recruiting Agency,4946 / PWR,Active,,
+AG1397,Mukamal Recruiting Agency,4947 / LHR,Active,,Lahore
+AG1398,Tashqand Overseas Employment Promoter,4948 / DGK,Active,,D.G. Khan
+AG1399,Zalmay Manpower,4949 / MLK,Active,,Malakand
+AG1400,Visa Master Overseas,4951 / PWR,Active,,
+AG1401,Zulekha International,5065 / PWR,Active,,
+AG1402,National University of Technology (NUTECH),5066 / RWP,Active,,Rawalpindi
+AG1403,Seni Gumbat Manpower Services,5067 / RWP,Active,,Rawalpindi
+AG1404,Sky Land Manpower,5068 / PWR,Active,,
+AG1405,Haziq Recruiting Agency,5069 / SKT,Active,,Sialkot
+AG1406,Shahzad Kayani and Brothers,5070 / GRT,Active,,Gujrat
+AG1407,Balaj Manpower Bureau,5071 / MTN,Active,,
+AG1408,Abu Bakar & Brothers Recruiting,5072 / KAR,Active,,Karachi
+AG1409,Spider Recruiting Agency,5073 / KAR,Active,,Karachi
+AG1410,Haq Bahoo International Employment Promoter,5074 / LHR,Active,,Lahore
+AG1411,Anatolia Manpower Services,5075 / LHR,Active,,Lahore
+AG1412,Hukamran International Recruiting Agency,5076 / PWR,Active,,
+AG1413,Zamda International Recruiter,5077 / SKT,Active,,Sialkot
+AG1414,Ripple Consultants Overseas,5078 / RWP,Active,,Rawalpindi
+AG1415,Gulab Manpower,5079 / MLK,Active,,Malakand
+AG1416,Landi Kotal Overseas Employment Promoter,5080 / PWR,Active,,
+AG1417,Ontario Aviation Overseas Employment,5081 / KAR,Active,,Karachi
+AG1418,Alizay Manpower Services,5082 / SKT,Active,,Sialkot
+AG1419,Ayat International Overseas,5083 / LHR,Active,,Lahore
+AG1420,Mithoo Overseas Employment Promoters,5084 / RWP,Active,,Rawalpindi
+AG1421,Eurozone International Recruiting Agency,5085 / QTA,Active,,Quetta
+AG1422,Allah Ditta Manpower,5086 / KAR,Active,,Karachi
+AG1423,Asim Meer International,5087 / LHR,Active,,Lahore
+AG1424,Orhan Consultancy,5089 / GRT,Active,,Gujrat
+AG1425,Meezab Enterprises,5090 / LHR,Active,,Lahore
+AG1426,Zubair Sadaruddin Manpower Consultants,5091 / KAR,Active,,Karachi
+AG1427,Ahmad Balaj International Corporation,5092 / RWP,Active,,Rawalpindi
+AG1428,W.A.T Enterprises,5093 / SKT,Active,,Sialkot
+AG1429,Catalyst Human Resource Consultants,5094 / LHR,Active,,Lahore
+AG1430,Jeevay Jeevay Pakistan Manpower,5095 / MTN,Active,,
+AG1431,Sangah Overseas Employment,5096 / KAR,Active,,Karachi
+AG1432,Mulazem International Overseas Employment Promoters,5097 / SKT,Active,,Sialkot
+AG1433,Sarmast Enterprises,5098 / KAR,Active,,Karachi
+AG1434,Hooriya International,5099 / KAR,Active,,Karachi
+AG1435,Rabaha International,5100 / PWR,Active,,
+AG1436,Al Marai OEP,5101 / KAR,Active,,Karachi
+AG1437,Ali Gujjar Enterprises,5102 / RWP,Active,,Rawalpindi
+AG1438,Eight Revolution,5103 / GRT,Active,,Gujrat
+AG1439,Tameer Manpower,5104 / RWP,Active,,Rawalpindi
+AG1440,Target Manpower Services,5105 / LHR,Active,,Lahore
+AG1441,Rewayat International,5106 / RWP,Active,,Rawalpindi
+AG1442,Mian Faisal Enterprises,5107 / RWP,Active,,Rawalpindi
+AG1443,Ali Izwa Overseas Employment Promoter,5108 / LHR,Active,,Lahore
+AG1444,Satellite International,5109 / SKT,Active,,Sialkot
+AG1445,Al Muhtashem Co.,5110 / KAR,Active,,Karachi
+AG1446,Goldman International Recruiters,5111 / LHR,Active,,Lahore
+AG1447,Farasat Manpower,5112 / KAR,Active,,Karachi
+AG1448,Wawa Manpower PVT LTD,5113 / PWR,Active,,
+AG1449,Jajjvi Traders,5114 / RWP,Active,,Rawalpindi
+AG1450,E-Portal Recruitment,5115 / SKT,Active,,Sialkot
+AG1451,Muzainah Overseas,5116 / KAR,Active,,Karachi
+AG1452,ZH Enterprises,5117 / RWP,Active,,Rawalpindi
+AG1453,Haji Ali Chandio Employment Overseas,5118 / KAR,Active,,Karachi
+AG1454,Farrukh International Promoters,5119 / GRT,Active,,Gujrat
+AG1455,Sakura Jinzai Overseas Employment,5120 / LHR,Active,,Lahore
+AG1456,AFCO Recruiting Agency,5121 / RWP,Active,,Rawalpindi
+AG1457,Mujtaba Taimoor Overseas Promoters,5122 / MTN,Active,,
+AG1458,Line International,5123 / RWP,Active,,Rawalpindi
+AG1459,Montana Overseas Employment Promoter,5124 / RWP,Active,,Rawalpindi
+AG1460,Din Brothers Overseas Employment Promoters,5125 / PWR,Active,,
+AG1461,Ameer Warraich Overseas Employment,5126 / RWP,Active,,Rawalpindi
+AG1462,Gorash International,5127 / DGK,Active,,D.G. Khan
+AG1463,Overseas Placement Services,5128 / LHR,Active,,Lahore
+AG1464,Khalid Hanif Overseas,5129 / GRT,Active,,Gujrat
+AG1465,Jalsai Manpower,5130 / PWR,Active,,
+AG1466,SHAHID FAIZ OVERSEAS EMPLOYMENT,5131 / SKR,Active,,
+AG1467,Yasmin Nauman Enterprises,5132 / LHR,Active,,Lahore
+AG1468,Air World International Overseas Employment (PVT) LTD,5133 / KAR,Active,,Karachi
+AG1469,Yaraan Corporation,5134 / MLK,Active,,Malakand
+AG1470,Thrive Consulting (SMC-PVT) LTD,5135 / RWP,Active,,Rawalpindi
+AG1471,Minsa Enterprises,5136 / LHR,Active,,Lahore
+AG1472,Al Ahad Recruitment Group,5137 / PWR,Active,,
+AG1473,Amplitude Enterprises,5138 / KAR,Active,,Karachi
+AG1474,Bestari International,5139 / RWP,Active,,Rawalpindi
+AG1475,Exclusive Manpower Services,5140 / RWP,Active,,Rawalpindi
+AG1476,Shehram Manpower Services,5141 / MLK,Active,,Malakand
+AG1477,Shahmir Tahir International,5142 / MTN,Active,,
+AG1478,ZNN Employment Services (Pvt) Ltd,5143 / RWP,Active,,Rawalpindi
+AG1479,Zainab & Company,5144 / KAR,Active,,Karachi
+AG1480,Record Manpower,5145 / RWP,Active,,Rawalpindi
+AG1481,Mahad International Consultants,5146 / RWP,Active,,Rawalpindi
+AG1482,Dar-Ul-Ayesha Overseas Employment,5147 / RWP,Active,,Rawalpindi
+AG1483,High Links International,5148 / SKT,Active,,Sialkot
+AG1484,My Future Pk,5149 / RWP,Active,,Rawalpindi
+AG1485,Al-Wali Placement Services,5150 / RWP,Active,,Rawalpindi
+AG1486,Rashid Lodhi & Sons International,5151 / RWP,Active,,Rawalpindi
+AG1487,Basit & Sufyan Brothers,5152 / RWP,Active,,Rawalpindi
+AG1488,Rajjar Manpower,5153 / PWR,Active,,
+AG1489,Dar-ul-Atal Overseas,5154 / RWP,Active,,Rawalpindi
+AG1490,Breeo International (Pvt) Limited,5155 / LHR,Active,,Lahore
+AG1491,Hi End Recruiters,5156 / LHR,Active,,Lahore
+AG1492,Kasoof International,5157 / SKT,Active,,Sialkot
+AG1493,Alyna Manpower Services (PVT) LTD,5158 / KAR,Active,,Karachi
+AG1494,Dost International,5159 / MTN,Active,,
+AG1495,AEG Enterprises (PVT) LTD,5160 / KAR,Active,,Karachi
+AG1496,Al-Mufleh Recruiting Agency,5161 / MLK,Active,,Malakand
+AG1497,Sayban Recruitment Agency,5162 / LHR,Active,,Lahore
+AG1498,Waalkoon International Overseas Promoters,5163 / SKT,Active,,Sialkot
+AG1499,JZ Consultants,5164 / LHR,Active,,Lahore
+AG1500,Global Overseas Employment Services (SMC - Private) Limited,5165 / RWP,Active,,Rawalpindi
+AG1501,Axis Services (PVT) Ltd,5166 / RWP,Active,,Rawalpindi
+AG1502,Spectrum Lines Manpower Solutions,5167 / LHR,Active,,Lahore
+AG1503,MAKZ Enterprises,5168 / KAR,Active,,Karachi
+AG1504,Marhaba Overseas (SMC-Private) Limited,5169 / RWP,Active,,Rawalpindi
+AG1505,ZB HR Services,5170 / LHR,Active,,Lahore
+AG1506,Alif Recruitment & Manpower Solutions,5171 / LHR,Active,,Lahore
+AG1507,Shamshi Khel Manpower,5172 / PWR,Active,,
+AG1508,Global Gateway,5173 / RWP,Active,,Rawalpindi
+AG1509,Berkshire Consulting,5174 / RWP,Active,,Rawalpindi
+AG1510,Takaful Overseas Employment,5175 / SKT,Active,,Sialkot
+AG1511,Indigo Manpower Promoter,5176 / SKT,Active,,Sialkot
+AG1512,Khyber KPK Overseas Employment Promoter,5177 / PWR,Active,,
+AG1513,International Legal Consultant (Pvt) Ltd.,5178 / RWP,Active,,Rawalpindi
+AG1514,Barca Manpower Recruitment Services,5180 / RWP,Active,,Rawalpindi
+AG1515,Social Hiring Overseas,5181 / RWP,Active,,Rawalpindi
+AG1516,Overseas Services Consultants (OSC),5182 / LHR,Active,,Lahore
+AG1517,Tricom Management (PVT) Limited,5184 / KAR,Active,,Karachi
+AG1518,Vista Overseas Manpower Supply (Pvt.) Ltd,5185 / LHR,Active,,Lahore
+AG1519,Parwest Pacific Company,5186 / LHR,Active,,Lahore
+AG1520,Go Foreign Pvt Ltd,5187 / RWP,Active,,Rawalpindi
+AG1521,Go Abroad Consultants,5188 / LHR,Active,,Lahore
+AG1522,ITHM Global HR Solutions,5189 / LHR,Active,,Lahore
+AG1523,MDA Reliance HR,5190 / RWP,Active,,Rawalpindi
+AG1524,Super Six Recruitment,5191 / RWP,Active,,Rawalpindi
+AG1525,Octa Manpower,5192 / RWP,Active,,Rawalpindi
+AG1526,Baba Farid Manpower Bureau,5193 / LHR,Active,,Lahore
+AG1527,Irfan Saram Overseas Employment,5194 / RWP,Active,,Rawalpindi
+AG1528,AR Manpower Bureau,5195 / RWP,Active,,Rawalpindi
+AG1529,Thandiani Manpower Services,5196 / RWP,Active,,Rawalpindi
+AG1530,Avoir HR Services,5197 / RWP,Active,,Rawalpindi
+AG1531,Dreams Beyond Borders Employment Agency,5198 / RWP,Active,,Rawalpindi
+AG1532,Nexgen Talent Recruitment Services,5199 / RWP,Active,,Rawalpindi
+AG1533,Aspire Arabia HR International,5200 / RWP,Active,,Rawalpindi
+AG1534,Al Maarij International OEP,5201 / LHR,Active,,Lahore
+AG1535,Z.Z Recruiter I,5202 / KAR,Active,,Karachi
+AG1536,Nauman International Recruitment Agency,5203 / RWP,Active,,Rawalpindi
+AG1537,Europe Adventures (SMC-Private) Limited,5204 / RWP,Active,,Rawalpindi
+AG1538,Zandali Overseas Employment Promoters,5205 / LHR,Active,,Lahore
+AG1539,SEISMOSGP International,5206 / RWP,Active,,Rawalpindi
+AG1540,Al Amraha Overseas Employment Promoters,5207 / QTA,Active,,Quetta
+AG1541,Clean Way Manpower,5208 / MLK,Active,,Malakand
+AG1542,Roza International Manpower,5209 / MLK,Active,,Malakand
+AG1543,All Overseas Recruitment and Manpower (SMC-Private) Ltd.,5210 / LHR,Active,,Lahore
+AG1544,Foreign Employment Consultants (FEC),5211 / LHR,Active,,Lahore
+AG1545,Zain Consultants Manpower,5212 / RWP,Active,,Rawalpindi
+AG1546,Diyar-e-Rehmat Manpower Services,5213 / MTN,Active,,
+AG1547,Al-Mutakabbir Overseas Employment Promoter,5214 / KAR,Active,,Karachi
+AG1548,Chaman Kot Overseas Employment Promoters,5215 / RWP,Active,,Rawalpindi
+AG1549,Sher Muhammad & Sons Manpower,5216 / LHR,Active,,Lahore
+AG1550,Al Saddat Business Corporation,5217 / MLK,Active,,Malakand
+AG1551,Transnational Recruiting,5218 / LHR,Active,,Lahore
+AG1552,Stockpile Goods and Services - Recruiting Agency,5219 / RWP,Active,,Rawalpindi
+AG1553,Career Catalyst Recruitment,5220 / RWP,Active,,Rawalpindi
+AG1554,Ilyas Overseas,5221 / PWR,Active,,
+AG1555,Dignity Manpower Bureau,5222 / RWP,Active,,Rawalpindi
+AG1556,Double Tree International Recruiter,5223 / RWP,Active,,Rawalpindi
+AG1557,Ali Hajveri International (Pvt) Ltd,5224 / LHR,Active,,Lahore
+AG1558,Markhor International Services,5225 / LHR,Active,,Lahore
+AG1559,Marcopolo Overseas Employment Promoter,5226 / PWR,Active,,
+AG1560,Look After Manpower,5227 / MTN,Active,,
+AG1561,Al-Hairis Overseas,5228 / KAR,Active,,Karachi
+AG1562,Al Zohar Manpower,5229 / RWP,Active,,Rawalpindi
+AG1563,Pathan Manpower,5230 / MLK,Active,,Malakand
+AG1564,Emar Overseas Employment Services (Pvt) Ltd.,5231 / RWP,Active,,Rawalpindi
+AG1565,Good Samaritan International Recruitment Agency,5232 / RWP,Active,,Rawalpindi
+AG1566,Misfah Overseas Employment Promoter,5233 / SKT,Active,,Sialkot
+AG1567,"Counseling, Training and Placement",5234 / RWP,Active,,Rawalpindi
+AG1568,Al Najran Enterprises,5235 / KAR,Active,,Karachi
+AG1569,Overseas Works (Private) Limited,5236 / RWP,Active,,Rawalpindi
+AG1570,Adeel Kiyani Enterprises,5237 / RWP,Active,,Rawalpindi
+AG1571,Global Falcon Manpower Solution,5238 / RWP,Active,,Rawalpindi
+AG1572,Go Horizon,5239 / RWP,Active,,Rawalpindi
+AG1573,Doon Bala International Manpower,5240 / RWP,Active,,Rawalpindi
+AG1574,Waniya International Services,5241 / MTN,Active,,
+AG1575,Yasir Al-Yami Recruitment,5242 / SKT,Active,,Sialkot
+AG1576,Barikot Overseas Employment Promoter,5243 / MLK,Active,,Malakand
+AG1577,Vigilant Technologies (Private) Limited,5244 / GRT,Active,,Gujrat
+AG1578,Imaan Careers Abroad,5245 / RWP,Active,,Rawalpindi
+AG1579,Prospector Overseas Recruiters,5246 / RWP,Active,,Rawalpindi
+AG1580,Sangoo Al Abraaj Group,5247 / RWP,Active,,Rawalpindi
+AG1581,TRG Human Resource Consultancy,5248 / RWP,Active,,Rawalpindi
+AG1582,Umair and Brothers Enterprises,5249 / RWP,Active,,Rawalpindi
+AG1583,Anisha Enterprises Overseas Employment Promoters,5250 / KAR,Active,,Karachi
+AG1584,Talentory (PVT) Ltd,5251 / GRT,Active,,Gujrat
+AG1585,Bhatti & Brothers Manpower Recruitment,5252 / KAR,Active,,Karachi
+AG1586,Noor Fatima Global Recruitment,5253 / RWP,Active,,Rawalpindi
+AG1587,Asma Enterprises,5254 / MLK,Active,,Malakand
+AG1588,Hire Hub International (Pvt) Ltd,5255 / LHR,Active,,Lahore
+AG1589,SRA International HR Consultancy Overseas Employment Promoter,5257 / RWP,Active,,Rawalpindi
+AG1590,Al Arhab International Recruitment Group,5258 / PWR,Active,,
+AG1591,Anabia Global Employment Services,5259 / RWP,Active,,Rawalpindi
+AG1592,Sabir Brothers International,5260 / KAR,Active,,Karachi
+AG1593,Khurram International OEP,5261 / RWP,Active,,Rawalpindi
+AG1594,Al Yousuf Global Services (Private) Limited,5262 / KAR,Active,,Karachi
+AG1595,Mandoori International Recruiting Agency,5263 / PWR,Active,,
+AG1596,BHM Overseas,5264 / RWP,Active,,Rawalpindi
+AG1597,Takasur Enterprises Overseas Employment Promoters,5265 / MTN,Active,,
+AG1598,Adab International Overseas Employment Promoters,5266 / MTN,Active,,
+AG1599,Waqar Waqas Manpower Bureau,5267 / RWP,Active,,Rawalpindi
+AG1600,Khartoom Overseas Employment Promoter,5268 / DGK,Active,,D.G. Khan
+AG1601,Al-Nadir Recruiting Agency,5269 / RWP,Active,,Rawalpindi
+AG1602,Yume Overseas Employment Promoters,5270 / RWP,Active,,Rawalpindi
+AG1603,Baltistan Manpower Supply,5271 / RWP,Active,,Rawalpindi
+AG1604,Nebras Enterprises,5272 / KAR,Active,,Karachi
+AG1605,Z & S Global Manpower,5273 / MLK,Active,,Malakand
+AG1606,Manmatrix (Pvt) Limited,5274 / LHR,Active,,Lahore
+AG1607,Al-Jaami International Manpower Services,5275 / LHR,Active,,Lahore
+AG1608,Hamza Farooq Enterprises,5276 / RWP,Active,,Rawalpindi
+AG1609,Muntaha Enterprises,5277 / KAR,Active,,Karachi
+AG1610,Horizon Overseas Employment Promoter,5278 / LHR,Active,,Lahore
+AG1611,Sohaib Ullah Manpower Consultant,5279 / MLK,Active,,Malakand
+AG1612,Twenty Four Seven Recruitment (Pvt) Ltd,5280 / RWP,Active,,Rawalpindi
+AG1613,True Hiring International,5281 / RWP,Active,,Rawalpindi
+AG1614,Essa Qamar Enterprises,5282 / RWP,Active,,Rawalpindi
+AG1615,Knowledge Realms (Pvt) Ltd,5283 / RWP,Active,,Rawalpindi
+AG1616,Wam Manpower Overseas Employment,5284 / LHR,Active,,Lahore
+AG1617,Opera International,5285 / KAR,Active,,Karachi
+AG1618,Noble Enterprises,5286 / KAR,Active,,Karachi
+AG1619,Greenchip International (Pvt) Ltd.,5287 / LHR,Active,,Lahore
+AG1620,Secure Future Overseas Employment Promoters,5288 / RWP,Active,,Rawalpindi
+AG1621,RIA Enterprises,5289 / LHR,Active,,Lahore
+AG1622,Brilliant Umar Overseas Recruitment Agency,5291 / QTA,Active,,Quetta
+AG1623,Al-Razziq Overseas Employment Promoter,5293 / RWP,Active,,Rawalpindi
+AG1624,Mansory Recruitment Bureau,5294 / RWP,Active,,Rawalpindi
+AG1625,Zakariya Overseas Recruiting Agency,5295 / MTN,Active,,
+AG1626,Golden Route Overseas Employment Promoter,5296 / RWP,Active,,Rawalpindi
+AG1627,Zayan Al-Arabia Recruitment Agency Private Limited,5297 / SKT,Active,,Sialkot
+AG1628,Future Edge Workbridge,5298 / RWP,Active,,Rawalpindi
+AG1629,Seinan Asia Promoters,5300 / SKR,Active,,
+AG1630,Moyan OEP,5301 / RWP,Active,,Rawalpindi
+AG1631,Tevta Punjab,5302 / LHR,Active,,Lahore
+AG1632,M. Sallar Rajput International Manpower Service,5303 / RWP,Active,,Rawalpindi
+AG1633,Syed Tassaddiq Enterprises,5304 / RWP,Active,,Rawalpindi
+AG1634,Mahnoor Rehmat Overseas Employment Promoter,5305 / PWR,Active,,
+AG1635,Blue Real Eye Overseas Employment,5306 / RWP,Active,,Rawalpindi
+AG1636,Khosa and Baloch Brothers,5307 / KAR,Active,,Karachi
+AG1637,JKD Pakistan Overseas Recruitment Center,5308 / PWR,Active,,
+AG1638,Mohsin Hassan Recruiting Agency (SMC Private) Limited,5309 / MLK,Active,,Malakand
+AG1639,Dana Pani Manpower Bureau,5310 / RWP,Active,,Rawalpindi
+AG1640,Bokra International Manpower,5311 / RWP,Active,,Rawalpindi
+AG1641,Chhab Overseas,5312 / RWP,Active,,Rawalpindi
+AG1642,Gillaniz International,5313 / RWP,Active,,Rawalpindi
+AG1643,All In One International Manpower,5314 / RWP,Active,,Rawalpindi
+AG1644,Al Badee International Manpower,5315 / MTN,Active,,
+AG1645,ZK Manpower Services,5317 / RWP,Active,,Rawalpindi
+AG1646,Poswal Services Bureau,5318 / LHR,Active,,Lahore
+AG1647,Yashal Manpower Services,5320 / RWP,Active,,Rawalpindi
+AG1648,PILC Overseas Employment Promoter,5321 / LHR,Active,,Lahore
+AG1649,Transfast Manpower Services,5322 / RWP,Active,,Rawalpindi
+AG1650,Meem Overseas Employment Promoters,5323 / MTN,Active,,
+AG1651,Growrole Recruitment Group,5325 / LHR,Active,,Lahore
+AG1652,Hadayat Sons HR Services,5326 / LHR,Active,,Lahore
+AG1653,Irtaza Khalid Overseas,5327 / MTN,Active,,
+AG1654,Roshini Overseas Employment Promoters,5329 / RWP,Active,,Rawalpindi
+AG1655,Talha International Manpower,5331 / RWP,Active,,Rawalpindi
+AG1656,Amigo Care Global Recruitment,5336 / RWP,Active,,Rawalpindi
+AG1657,Green Field Manpower Services,5339 / RWP,Active,,Rawalpindi
+AG1658,Bin Wahed Manpower Services,5349 / PWR,Active,,
+AG1659,Punjab Vocational Training Council,5352 / LHR,Active,,Lahore
