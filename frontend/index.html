@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>SafeMigrate AI</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; background: #f4f7fb; margin: 0; padding: 0; color: #1a1a1a; }
+  .app { max-width: 640px; margin: 0 auto; padding: 24px 16px 60px; }
+  header { text-align: center; margin-bottom: 24px; }
+  header h1 { color: #1F3864; margin-bottom: 4px; }
+  header p { color: #666; margin-top: 0; }
+  .tabs { display: flex; gap: 8px; margin-bottom: 20px; }
+  .tab { flex: 1; padding: 10px; text-align: center; border-radius: 10px; background: #e6ecf7; cursor: pointer; font-weight: 600; color: #2E5FA3; border: 2px solid transparent; }
+  .tab.active { background: #2E5FA3; color: white; }
+  .card { background: white; border-radius: 14px; padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.06); }
+  textarea, input[type=text] { width: 100%; padding: 12px; border-radius: 10px; border: 1px solid #ccc; font-size: 15px; font-family: inherit; margin-bottom: 12px; }
+  textarea { min-height: 120px; resize: vertical; }
+  button { background: #2E5FA3; color: white; border: none; padding: 12px 20px; border-radius: 10px; font-size: 15px; font-weight: 600; cursor: pointer; width: 100%; }
+  button:hover { background: #1F3864; }
+  button:disabled { background: #aaa; cursor: not-allowed; }
+  .result { margin-top: 20px; padding: 16px; border-radius: 12px; }
+  .result.Low { background: #e8f5e9; border: 2px solid #2E7D32; }
+  .result.Medium { background: #fff8e1; border: 2px solid #F9A825; }
+  .result.High { background: #ffebee; border: 2px solid #C62828; }
+  .result h2 { margin-top: 0; }
+  .flag { background: rgba(0,0,0,0.05); padding: 8px 10px; border-radius: 8px; margin-bottom: 6px; font-size: 14px; }
+  .lang-toggle { text-align: right; margin-bottom: 10px; }
+  .lang-toggle button { width: auto; padding: 6px 14px; font-size: 13px; }
+  .agency-info { font-size: 15px; line-height: 1.8; }
+  .status-active { color: #2E7D32; font-weight: 700; }
+  .status-suspended { color: #C62828; font-weight: 700; }
+  .footer-note { text-align: center; color: #888; font-size: 12px; margin-top: 30px; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+<script type="text/babel">
+const { useState } = React;
+const API_BASE = "http://127.0.0.1:8000";
+
+function App() {
+  const [tab, setTab] = useState("text");
+  const [lang, setLang] = useState("en");
+  return (
+    <div className="app">
+      <div className="lang-toggle">
+        <button onClick={() => setLang(lang === "en" ? "ur" : "en")}>
+          {lang === "en" ? "Urdu" : "English"}
+        </button>
+      </div>
+      <header>
+        <h1>SafeMigrate AI</h1>
+        <p>{lang === "en" ? "Check if a job offer or agency is genuine" : "Check karein job offer ya agency asli hai ya nahi"}</p>
+      </header>
+      <div className="tabs">
+        <div className={"tab " + (tab === "text" ? "active" : "")} onClick={() => setTab("text")}>{lang === "en" ? "Check Job Offer" : "Job Offer Check"}</div>
+        <div className={"tab " + (tab === "agency" ? "active" : "")} onClick={() => setTab("agency")}>{lang === "en" ? "Check Agency" : "Agency Check"}</div>
+        <div className={"tab " + (tab === "report" ? "active" : "")} onClick={() => setTab("report")}>{lang === "en" ? "Report Scam" : "Report Karein"}</div>
+      </div>
+      <div className="card">
+        {tab === "text" && <TextCheck lang={lang} />}
+        {tab === "agency" && <AgencyCheck lang={lang} />}
+        {tab === "report" && <ReportScam lang={lang} />}
+      </div>
+      <p className="footer-note">
+        {lang === "en" ? "This is an advisory tool, not legal verification. Always confirm independently with the Bureau of Emigration." : "Ye advisory tool hai, legal verification nahi. Hamesha Bureau of Emigration se khud confirm karein."}
+      </p>
+    </div>
+  );
+}
+
+function TextCheck({ lang }) {
+  const [text, setText] = useState("");
+  const [result, setResult] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+
+  const handleCheck = async () => {
+    if (!text.trim()) return;
+    setLoading(true); setError(""); setResult(null);
+    try {
+      const res = await fetch(`${API_BASE}/check-text`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text }),
+      });
+      const data = await res.json();
+      setResult(data);
+    } catch (e) {
+      setError(lang === "en" ? "Could not reach the server. Is the backend running?" : "Server tak nahi pahunch sake. Backend chal raha hai?");
+    }
+    setLoading(false);
+  };
+
+  return (
+    <div>
+      <textarea placeholder={lang === "en" ? "Paste the job offer or WhatsApp message here..." : "Job offer ya WhatsApp message yahan paste karein..."} value={text} onChange={(e) => setText(e.target.value)} />
+      <button onClick={handleCheck} disabled={loading}>{loading ? (lang === "en" ? "Analyzing..." : "Check ho raha hai...") : (lang === "en" ? "Analyze" : "Check Karein")}</button>
+      {error && <p style={{color: "#C62828"}}>{error}</p>}
+      {result && (
+        <div className={`result ${result.risk_label}`}>
+          <h2>{lang === "en" ? result.message_en : result.message_ur}</h2>
+          <p><strong>Risk Score:</strong> {result.risk_score}/100 ({result.risk_label})</p>
+          {result.red_flags.length > 0 && (
+            <div>
+              <strong>{lang === "en" ? "Red Flags Detected:" : "Ye Red Flags Milay:"}</strong>
+              {(lang === "en" ? result.reasons_en : result.reasons_ur).map((r, i) => (<div key={i} className="flag">{r}</div>))}
+            </div>
+          )}
+          <div style={{marginTop: 12}}>
+            <strong>{lang === "en" ? "Next Steps:" : "Aage Kya Karein:"}</strong>
+            <ul>{(lang === "en" ? result.next_steps_en : result.next_steps_ur).map((s, i) => (<li key={i}>{s}</li>))}</ul>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function AgencyCheck({ lang }) {
+  const [name, setName] = useState("");
+  const [result, setResult] = useState(null);
+  const [loading, setLoading] = useState(false);
+
+  const handleSearch = async () => {
+    if (!name.trim()) return;
+    setLoading(true); setResult(null);
+    try {
+      const res = await fetch(`${API_BASE}/check-agency?name=${encodeURIComponent(name)}`);
+      const data = await res.json();
+      setResult(data);
+    } catch (e) { setResult({ error: true }); }
+    setLoading(false);
+  };
+
+  return (
+    <div>
+      <input type="text" placeholder={lang === "en" ? "Enter agency name..." : "Agency ka naam likhein..."} value={name} onChange={(e) => setName(e.target.value)} />
+      <button onClick={handleSearch} disabled={loading}>{loading ? "..." : (lang === "en" ? "Search" : "Search Karein")}</button>
+      {result && result.matched && (
+        <div className="result Low agency-info">
+          <h2>Verified Agency Found</h2>
+          <p><strong>{lang === "en" ? "Name" : "Naam"}:</strong> {result.agency_name}</p>
+          <p><strong>{lang === "en" ? "License #" : "License Number"}:</strong> {result.license_number}</p>
+          <p><strong>Status:</strong> <span className={result.status === "Active" ? "status-active" : "status-suspended"}>{result.status}</span></p>
+          <p><strong>Contact:</strong> {result.contact_info}</p>
+          <p><strong>City:</strong> {result.city}</p>
+        </div>
+      )}
+      {result && !result.matched && (
+        <div className="result High">
+          <h2>Not Found in Verified List</h2>
+          <p>{lang === "en" ? "This agency does not match any verified record. Proceed with caution." : "Ye agency verified list mein match nahi hui. Ehtiyat se aage badhein."}</p>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function ReportScam({ lang }) {
+  const [agencyName, setAgencyName] = useState("");
+  const [description, setDescription] = useState("");
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = async () => {
+    if (!description.trim()) return;
+    try {
+      await fetch(`${API_BASE}/report-scam`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ agency_name: agencyName, description }),
+      });
+      setSubmitted(true); setAgencyName(""); setDescription("");
+    } catch (e) {
+      alert(lang === "en" ? "Could not submit. Is the backend running?" : "Submit nahi hua. Backend chal raha hai?");
+    }
+  };
+
+  return (
+    <div>
+      <input type="text" placeholder={lang === "en" ? "Agency name (optional)" : "Agency ka naam (optional)"} value={agencyName} onChange={(e) => setAgencyName(e.target.value)} />
+      <textarea placeholder={lang === "en" ? "Describe what happened..." : "Kya hua tha, batayein..."} value={description} onChange={(e) => setDescription(e.target.value)} />
+      <button onClick={handleSubmit}>{lang === "en" ? "Submit Report" : "Report Submit Karein"}</button>
+      {submitted && <p style={{color: "#2E7D32", fontWeight: 600}}>{lang === "en" ? "Thank you. Your report has been submitted for review." : "Shukriya. Aapki report review ke liye submit ho gayi hai."}</p>}
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+</script>
+</body>
+</html>

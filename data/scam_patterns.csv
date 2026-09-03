@@ -1,0 +1,47 @@
+﻿pattern_id,phrase,category,risk_weight
+P001,processing fee,upfront_fee,0.8
+P002,advance payment,upfront_fee,0.8
+P003,visa fee pehle,upfront_fee,0.85
+P004,send money now,pressure_tactic,0.9
+P005,offer will be cancelled,pressure_tactic,0.85
+P006,limited time,pressure_tactic,0.6
+P007,act now,pressure_tactic,0.6
+P008,guaranteed job,unrealistic_claim,0.7
+P009,no interview required,unrealistic_claim,0.75
+P010,salary in dollars,unrealistic_claim,0.4
+P011,whatsapp only,suspicious_channel,0.5
+P012,western union,suspicious_channel,0.85
+P013,easypaisa transfer,suspicious_channel,0.7
+P014,dear applicant,generic_greeting,0.3
+P015,congratulations you are selected,unrealistic_claim,0.6
+P016,paisay bhejain,upfront_fee,0.85
+P017,fees pehle jama karain,upfront_fee,0.85
+P018,jaldi karain,pressure_tactic,0.7
+P019,offer cancel ho jayega,pressure_tactic,0.85
+P020,guaranteed visa,unrealistic_claim,0.75
+P021,bina interview ke,unrealistic_claim,0.7
+P022,sirf whatsapp per,suspicious_channel,0.5
+P023,jeetne walon mein shamil,unrealistic_claim,0.6
+P024,advance raqam,upfront_fee,0.8
+P025,mubarak ho aap select ho gaye,unrealistic_claim,0.6
+P026,jazba mat gawayen,pressure_tactic,0.55
+P027,seat mehfooz karne ke liye,upfront_fee,0.7
+P028,bank account number bhejain,suspicious_channel,0.75
+P029,cash on delivery visa,unrealistic_claim,0.65
+P030,no experience required high salary,unrealistic_claim,0.7
+P031,own time own target,unrealistic_claim,0.6
+P032,non-technical,suspicious_channel,0.3
+P033,commission system,unrealistic_claim,0.5
+P034,data entry,suspicious_channel,0.3
+P035,part time full time,unrealistic_claim,0.4
+P036,age requirement,suspicious_channel,0.3
+P037,optimize data,unrealistic_claim,0.4
+P038,گرنتیڈ ویزا,unrealistic_claim,0.75
+P039,فیس پہلے جما,upfront_fee,0.85
+P040,پیسے بھیجیں,upfront_fee,0.85
+P041,پیسے بیجیں,upfront_fee,0.85
+P042,جلدی کریں,pressure_tactic,0.7
+P043,کینسل ہو جائے گی,pressure_tactic,0.8
+P044,کنسل ہو جائے گی,pressure_tactic,0.8
+P045,سلیکٹ ہو گئے,unrealistic_claim,0.5
+P046,سلکٹ ہو گئے,unrealistic_claim,0.5

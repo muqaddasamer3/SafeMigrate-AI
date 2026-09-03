@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+﻿# SafeMigrate AI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+AI-powered overseas recruitment fraud detection & agency verification platform.
+(Alibaba Hackathon Project - Grade 1 Submission)
 
-## Available Scripts
+SafeMigrate AI helps Pakistani job seekers and their families check whether a job
+offer, recruitment agency, or WhatsApp message is genuine or a scam - by combining
+AI-based scam-pattern detection with cross-verification against government-verified
+agency records.
 
-In the project directory, you can run:
+## Project Structure
+- backend/    FastAPI backend - APIs for text/image analysis, agency lookup
+- frontend/   React (CDN, no build step) - user interface (Urdu/English)
+- data/       verified_agencies dataset, scam_patterns dataset
+- docs/       Project pack, form answers, delivery plan
 
-### `npm start`
+## Core Features (MVP)
+- Text-based scam check
+- Explainable risk scoring (Low/Medium/High)
+- Verified agency lookup
+- Bilingual results (Urdu/English)
+- Community scam reporting
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How to Run
+1. cd backend
+2. python -m venv venv
+3. venv\Scripts\activate
+4. pip install -r requirements.txt
+5. uvicorn main:app --reload
+6. Open frontend/index.html in your browser
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Team
+- Member 1: AI/ML Lead + Project Lead
+- Member 2: Backend + Data Developer
+- Member 3: Frontend/UI + Presentation Lead
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Compliance Note
+Risk assessment is advisory only, not legal verification. Users should always
+independently confirm with the Bureau of Emigration.
